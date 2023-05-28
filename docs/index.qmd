@@ -1,0 +1,26 @@
+---
+title: "Welcome"
+---
+
+# About Me
+
+### [Resume](https://ajaverett.github.io/resume/aj/resume.pdf)
+
+Here is my resume as of May 2023. I am currently in my senior year at University studying Data Science with a minor in Statistics. I am looking for a full-time position in Data Science, Machine Learning, or Statistician. I am also open to internships.
+
+### [Blog and Portfolio](https://ajaverett.github.io/portfolio/)
+
+I have a blog and portfolio where I post about my projects and other things I find interesting. I am somewhat interested in politics, and other social sciences. I also like to write about my personal projects and other fun things.
+
+# Passion Projects
+
+### [A Brief Introduction to Statistics](https://ajaverett.github.io/statistics)
+
+I wrote/compiled this book as a way to introduce people to univariate and bivariate data, distributions, and hypothesis testing. I have always been interested in statistics, and I wanted to break down these concepts in a way that was easy to understand but went into enough detail to be useful.
+
+### [A Brief Introduction to Intelligence](https://ajaverett.github.io/intelligence)
+
+I wrote/compiled this book as a way to introduce people to the field of intelligence research and its criticisms. I have always been interested in the field of intelligence research, and I wanted to share my knowledge with others. I also wanted to make a book that was easy but robustly cited.
+
+
+
