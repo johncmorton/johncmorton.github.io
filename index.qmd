@@ -12,7 +12,7 @@ Here is my resume as of May 2023. I am currently in my senior year at University
 
 I have a blog and portfolio where I post about my projects and other things I find interesting. I am somewhat interested in politics, and other social sciences. I also like to write about my personal projects and other fun things.
 
-# Passion Projects
+# Half-Baked Passion Projects
 
 ### [A Brief Introduction to Statistics](https://ajaverett.github.io/statistics)
 
@@ -21,6 +21,10 @@ I wrote/compiled this book as a way to introduce people to univariate and bivari
 ### [A Brief Introduction to Intelligence](https://ajaverett.github.io/intelligence)
 
 I wrote/compiled this book as a way to introduce people to the field of intelligence research and its criticisms. I have always been interested in the field of intelligence research, and I wanted to share my knowledge with others. I also wanted to make a book that was easy but robustly cited.
+
+### [Some Brief Counters to Heritability](https://ajaverett.github.io/heritability)
+
+I compiled this book as a way to counter some common claims against the idea of heritability (ratio of variance explained by genetics to total variation in a given phenotype). Understanding to two fronts to improving a phenotype (genetics and environment) is important to me.
 
 
 
