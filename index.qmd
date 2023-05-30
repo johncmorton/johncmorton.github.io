@@ -1,12 +1,10 @@
 ---
-title: "Welcome"
+title: "About Me"
 ---
-
-# About Me
 
 ### [Resume](https://ajaverett.github.io/resume.pdf)
 
-Here is my resume as of May 2023. I am currently in my senior year at University studying Data Science with a minor in Statistics. I am looking for a full-time position in Data Science, Machine Learning, or Statistics. I am also open to internships.
+Here is my resume as of June 2023. I am currently in my senior year at University studying Data Science with a minor in Statistics. I am looking for a full-time position in Data Science, Machine Learning, or Statistics. I am also open to internships.
 
 ### [Blog and Portfolio](https://ajaverett.github.io/portfolio/)
 
