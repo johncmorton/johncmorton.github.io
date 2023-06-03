@@ -63,12 +63,13 @@ format:
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Data Science Lab Coordinator}\end
+    \begin{flushleft}\textit{Head Lab Coordinator}\end
     {flushleft}\begin{flushright}May 2022-Present\end
     {flushright}
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
+* Managed, scheduled, and trained tutors to work in the Data Science Lab
 * Tutored students seeking help in programming and mathematics for various intermediate level data science courses using various data science and machine learning libraries within Python including Pandas, Numpy, Sklearn, and TensorFlow
 
 \vspace{6pt}
