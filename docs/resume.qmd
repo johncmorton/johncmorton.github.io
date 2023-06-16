@@ -45,7 +45,7 @@ format:
     \begin{flushright}Apr 2020- Apr 2024\end{flushright}
   \end{multicols}
   \vspace{-0.25cm}
-  \textit{Certifications: Machine Learning, Business; Web and Computer Programming}
+  \textit{Certifications: Business; Web and Computer Programming; Machine Learning}
 \end{large}
 
 \vspace{0.2cm}
@@ -70,7 +70,7 @@ format:
 \end{large}
 \vspace{-0.16cm}
 * Managed, scheduled, and trained tutors to work in the Data Science Lab
-* Tutored students seeking help in programming and mathematics for various intermediate level data science courses using various data science and machine learning libraries within Python including Pandas, Numpy, Sklearn, and TensorFlow
+* Tutored students seeking help in programming and mathematics for all intermediate level data science courses using various data science and machine learning libraries within Python including Pandas, Numpy, Sklearn, and TensorFlow
 
 \vspace{6pt}
 
@@ -123,8 +123,8 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Managed and contributed content for Lone Star Poly's website in order to aesthetically and efficiently relay information to potential customers
-* Handled technical requests from management including creating and formatted documents for administrative use
+* Managed and contributed website content in order to aesthetically and efficiently relay information to potential customers
+* Handled technical requests from management including creating and formatting documents for administrative use
 
 \vspace{7pt}    
 
@@ -144,7 +144,7 @@ format:
 \end{large}
 \vspace{-0.16cm}
 * Organized six consulting groups of 3-5 students to work with local businesses to help them solve data science problems.
-* Oversaw and helped coordinate all projects undertaken by the society with the faculty sponsor.
+* Oversaw and helped coordinate all projects undertaken by the society with the faculty sponsor
 
 \vspace{6pt}
 
@@ -177,7 +177,7 @@ format:
 \end{large}
 \vspace{-0.16cm}
 * Organized religious community service among teams as a regional director and technology consultant
-* Communicated and served with local multilingual institutions.
+* Communicated and served with local multilingual institutions
 \vspace{6pt}
 
 
@@ -188,7 +188,7 @@ format:
 \end{large}
 \vspace{-0.16cm}
 \vspace{6pt}
-* **Python**: Pandas, NumPy, Sci-kit Learn, PySpark, Polars, Keras / Tensorflow, BeautifulSoup 4 
+* **Python**: Pandas, NumPy, Sci-kit Learn, PySpark, Polars, Keras / Tensorflow, BeautifulSoup4 
 \vspace{2pt}
 * **R**: CAR, Mosaic, RMarkdown, Tidyverse (dplyr, tidyr, stringr, forcats, lubridate, purrr, etc.) 
 \vspace{2pt}
