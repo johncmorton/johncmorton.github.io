@@ -45,7 +45,7 @@ format:
     \begin{flushright}Apr 2020- Apr 2024\end{flushright}
   \end{multicols}
   \vspace{-0.25cm}
-  \textit{Certifications: Business; Web and Computer Programming; Machine Learning}
+  \textit{Certifications: Web and Computer Programming; Machine Learning}
 \end{large}
 
 \vspace{0.2cm}
@@ -85,6 +85,7 @@ format:
 \vspace{-0.16cm}
 * **DS250**: Taught DS Programming, viz, and basic ML with Pandas, NumPy, Sci-kit Learn
 * **DS350**: Taught Data Wrangling and Visualization with R tidyverse (dplyr, ggplot2 etc.)
+* **MATH341**: Taught Linear Algebra with Python (NumPy, SymPy)
 * **MATH221**: Taught Business Statistics with Excel
 
 \vspace{7pt}
