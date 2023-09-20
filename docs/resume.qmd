@@ -68,11 +68,14 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models that predicted ideological disposition and turnout
-* Significantly decreased polling production time by automating sampling methodologies
-* Increased accuracy and AUC for all future machine learning models by using GIS data to categorize over 100M records of voter data into 12 granularities of population density
+* Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models that predicted ideological disposition and turnout using R's tidyverse
+* Significantly decreased polling production time by automating sampling methodologies using R's statistical libraries
+* Increased accuracy and AUC for all future machine learning models by using GIS data to categorize over 100 million records of voter data into 12 granularities of population density using R's sf and other geospatial libraries
 
 \vspace{7pt}
+
+
+
 
 <!-- EXPERIENCE : 2ND BULLET -->
 \begin{large}
@@ -82,13 +85,13 @@ format:
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Head Lab Coordinator}\end{flushleft}
-    \begin{flushright}May 2023 - Jan 2023\end{flushright}
+    \begin{flushleft}\textit{Data Science Society President}\end{flushleft}
+    \begin{flushright}Mar 2023 - Sep 2023\end{flushright}
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Managed, scheduled, and trained tutors to work in the university data science lab for R and Python
-* Tutored students seeking help in programming and mathematics for all intermediate level data science courses using various data science and machine learning libraries within Python including Pandas, Numpy, Sklearn, and TensorFlow
+* Oversaw and helped coordinate all projects undertaken by the society with the faculty sponsor
+* Led and coordinated data science society activities and meetings; mentored and supported project teams including weekly bootcamps to teach data analysis, statistics, and machine learning
 
 \vspace{6pt}
 
@@ -96,7 +99,7 @@ format:
   \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Teacher's Assistant}\end{flushleft}
-    \begin{flushright}Apr 2022 - Present\end{flushright}
+    \begin{flushright}May 2022 - Present\end{flushright}
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
@@ -105,17 +108,21 @@ format:
 * **DS460**: Taught and tutored Big Data Programming with Python in DataBricks (Polars, PySpark, Plotly, AutoML, etc.)
 * **MATH221**: Taught and tutored Business Statistics and other statistical theories and methods with Excel
 * **MATH341**: Taught and tutored Linear Algebra with Python (NumPy, SymPy)
-\vspace{7pt}
+
+\vspace{6pt}
 
 \begin{large}
   \vspace{-0.17cm}
   \begin{multicols}{2}
-    \begin{flushleft}\textit{Data Science Society President}\end{flushleft}
-    \begin{flushright}Mar 2023 - Sep 2023\end{flushright}
+    \begin{flushleft}\textit{Head Lab Coordinator}\end{flushleft}
+    \begin{flushright}Apr 2023 - Present\end{flushright}
   \end{multicols}
 \end{large}
-* Oversaw and helped coordinate all projects undertaken by the society with the faculty sponsor.
-* Lead and coordinated DSS activities and meetings; mentored and supported project teams including weekly bootcamps to teach data analysis, statistics, and machine learning
+\vspace{-0.16cm}
+* Managed, scheduled, and trained tutors to work in the university data science lab for R and Python
+* Tutored students seeking help in programming and mathematics for all intermediate level data science courses using various data science and machine learning libraries within Python including Pandas, Numpy, Sklearn, and TensorFlow
+
+
 
 \vspace{7pt}
 
@@ -137,8 +144,8 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Provided actionable graphs and trends using NLP tools like sentiment analysis and unsupervised textual clustering along side time-series analysis as part of the Wilford Woodruff production team
-* Delivered an interactive web application that cross-referenced religious texts with early Mormon journal entries by using a Bag-of-Words to vectorize n-grams to find textual matches sorted by confidence
+* Provided actionable graphs and trends using NLP tools like sentiment analysis and unsupervised textual clustering alongside time-series analysis as part of the Wilford Woodruff production team
+* Delivered an interactive web application that cross-referenced religious texts with early Mormon journal entries by using a Bag-of-Words model to vectorize n-grams to find textual matches sorted by confidence
 
 \vspace{7pt}
 
@@ -156,7 +163,7 @@ format:
 \end{large}
 \vspace{-0.16cm}
 
-* Identified fraudulent genealogical submissions in the African Oral History Project for FamilySearch using in-house tuned statistical models, anomaly detection methods, and machine learning algorithms.
+* Identified fraudulent genealogical submissions in the African Oral History Project for FamilySearch using in-house tuned statistical models, anomaly detection methods, and machine learning algorithms
 
 \vspace{7pt}
 
@@ -178,5 +185,5 @@ format:
 \vspace{2pt}
 * **Visualization libraries**: Streamlit, ggplot2, Matplotlib / Seaborn, Plotly Express, Altair
 \vspace{2pt}
-* **Other Skills**: Microsoft Excel, SQL, Git/GitHub, Quarto, LaTeX, Regex
+* **Other Skills**: Microsoft Excel, SQL, Git/GitHub, Quarto, LaTeX, Regex; Spanish conversational fluency
 
