@@ -103,11 +103,11 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* **DS250**: Taught and tutored DS Programming, viz, and basic ML in Python (Pandas, NumPy, Sci-kit Learn)
-* **DS350**: Taught and tutored Data Wrangling and viz with R tidyverse (dplyr, ggplot2 etc.)
-* **DS460**: Taught and tutored Big Data Programming with Python in DataBricks (Polars, PySpark, Plotly, AutoML, etc.)
-* **MATH221**: Taught and tutored Business Statistics and other statistical theories and methods with Excel
-* **MATH341**: Taught and tutored Linear Algebra with Python (NumPy, SymPy)
+* **DS Programming**: Tutored data analysis, statistics, and basic ML in Python (Pandas, NumPy, Sci-kit Learn)
+* **Data Wrangling and viz**: Tutored complex data analysis and visualization with R tidyverse (dplyr, ggplot2 etc.)
+* **Big Data Programming**: Tutored big data analysis and visualization in DataBricks (Polars, PySpark, Plotly, AutoML, etc.)
+* **Business Statistics**: Tutored basic statistical analyses, theories, and methods with Excel
+* **Linear Algebra**: Tutored both non-computational and computational linear algebra with Python (NumPy, SymPy)
 
 \vspace{6pt}
 
@@ -144,8 +144,8 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Provided actionable graphs and trends using NLP tools like sentiment analysis and unsupervised textual clustering alongside time-series analysis as part of the Wilford Woodruff production team
-* Delivered an interactive web application that cross-referenced religious texts with early Mormon journal entries by using a Bag-of-Words model to vectorize n-grams to find textual matches sorted by confidence
+* Provided actionable graphs and trends using NLP tools including sentiment analysis and unsupervised textual clustering alongside time-series analysis as part of the Wilford Woodruff production team
+* Delivered an interactive web application that cross-referenced religious texts with 19th century published journal entries by using a Bag-of-Words model to vectorize n-grams to find textual matches sorted by confidence
 
 \vspace{7pt}
 
@@ -163,13 +163,9 @@ format:
 \end{large}
 \vspace{-0.16cm}
 
-* Identified fraudulent genealogical submissions in the African Oral History Project for FamilySearch using in-house tuned statistical models, anomaly detection methods, and machine learning algorithms
+* Identified erroneous genealogical submissions in the African Oral History Project using in-house tuned statistical models, anomaly detection methods, and machine learning algorithms to eliminate fraudulent contractors
 
 \vspace{7pt}
-
-
-
-
 
 
 <!-- SKILLS -->
@@ -179,11 +175,13 @@ format:
 \end{large}
 \vspace{-0.16cm}
 \vspace{6pt}
-* **Python**: Pandas, NumPy, Sci-kit Learn, PySpark, Polars, Keras / Tensorflow, BeautifulSoup4 
+* **Python**: Pandas, NumPy, Sci-kit Learn, PySpark, Polars, Keras / Tensorflow, BeautifulSoup4, DataBricks
 \vspace{2pt}
 * **R**: CAR, Mosaic, RMarkdown, Tidyverse (dplyr, tidyr, stringr, forcats, lubridate, purrr, etc.) 
 \vspace{2pt}
 * **Visualization libraries**: Streamlit, ggplot2, Matplotlib / Seaborn, Plotly Express, Altair
 \vspace{2pt}
-* **Other Skills**: Microsoft Excel, SQL, Git/GitHub, Quarto, LaTeX, Regex; Spanish conversational fluency
+* **Other Technical Skills**: Microsoft Excel, SQL, Git/GitHub, Quarto, LaTeX, Regex, Docker
+\vspace{2pt}
+* **Math Courses**: Calculus, Applied Calculus for Data Analysis, Linear Algebra, Discrete Mathematics, Applied Regression
 
