@@ -183,5 +183,5 @@ format:
 \vspace{2pt}
 * **Other Technical Skills**: Microsoft Excel, SQL, Git/GitHub, Quarto, LaTeX, Regex, Docker
 \vspace{2pt}
-* **Math Courses**: Calculus, Applied Calculus for Data Analysis, Linear Algebra, Discrete Mathematics, Applied Regression
+* **Math Courses**: Calculus, Applied Calculus for Data Analysis, Linear Algebra, Intermediate Statistics, Applied Regression
 
