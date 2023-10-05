@@ -42,7 +42,7 @@ format:
   \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}B.Sc. Data Science, Statistics; \textit{Major GPA: 3.8} \end{flushleft}
-    \begin{flushright}Apr 2020 - Apr 2024\end{flushright}
+    \begin{flushright} Apr 2020 - Dec 2023\end{flushright}
   \end{multicols}
   \vspace{-0.25cm}
   \textit{Certifications: Web and Computer Programming (3.7); Machine Learning (4.0)}
