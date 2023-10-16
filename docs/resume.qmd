@@ -26,7 +26,7 @@ format:
 \end{center}
 
 <!-- CONTACT INFO -->
-\begin{center} 832.856.4666 | ajaverett0@gmail.com | linkedin.com/in/ajaverett
+\begin{center} 832.856.4666 | ajaverett0@gmail.com | linkedin.com/in/ajaverett | ajaverett.github.io
 \end{center}
 \vspace{12pt}
 
@@ -120,8 +120,8 @@ format:
 \end{large}
 \vspace{-0.16cm}
 * Managed, scheduled, and trained tutors to work in the university data science lab for R and Python
-* Tutored students seeking help in programming and mathematics for all intermediate level data science courses using various data science and machine learning libraries within Python including Pandas, Numpy, Sklearn, and TensorFlow
-
+* Tutored students seeking help in programming and mathematics for all intermediate level data science courses
+* Created a web applet for tutorials in pandas, polars, tidyverse, and SQL; used by 100+ students
 
 
 \vspace{7pt}
