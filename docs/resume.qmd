@@ -22,7 +22,7 @@ format:
 ---
 <!-- TITLE -->
 \begin{center}
-{\fontsize{40}{60}\selectfont \textbf{Alan J Averett}}
+{\fontsize{35}{50}\selectfont \textbf{Alan J Averett}}
 \end{center}
 
 <!-- CONTACT INFO -->
@@ -41,12 +41,13 @@ format:
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
-    \begin{flushleft}B.Sc. Data Science, Statistics; \textit{Major GPA: 3.8} \end{flushleft}
+    \begin{flushleft}B.Sc. Data Science, Statistics; \textit{Major GPA: 3.8/4.0} \end{flushleft}
     \begin{flushright} Apr 2020 - Dec 2023\end{flushright}
   \end{multicols}
   \vspace{-0.25cm}
-  \textit{Certifications: Web and Computer Programming (3.7); Machine Learning (4.0)}
 \end{large}
+ * **Certifications**: Web and Computer Programming (3.7/4.0); Machine Learning (4.0/4.0)
+ * **Leadership**: Chi Delta Society, Society of Hispanic Professional Engineers (SHPE), Data Science and AI Society
 
 \vspace{0.2cm}
 
