@@ -47,7 +47,7 @@ format:
   \vspace{-0.25cm}
 \end{large}
  * **Certifications**: Web and Computer Programming (3.7/4.0); Machine Learning (4.0/4.0)
- * **Leadership**: Chi Delta Society, Society of Hispanic Professional Engineers (SHPE), Data Science and AI Society
+ * **Leadership**: Society of Hispanic Professional Engineers (SHPE), Data Science and AI Society
 
 \vspace{0.2cm}
 
