@@ -7,11 +7,53 @@
     "text": "Meet Aj!\n\nData Scientist\nI’m a data scientist with a passion for Python, R, data visualization, and statistics/machine learning.\n\n\n\n\n \n\n\nOn this portfolio, I share and teach what I learn. To get started, you can check out my most popular content below. You can find me on GitHub, Instagram, and LinkedIn. Feel free to reach out to me via mail and subscribe to my email newsletter.\n\n\n\n\n\n\n\n\n\n\n\n\n\nA county like mine\n\n\n\n\n\n\nAj Averett\n\n\nMar 31, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nState of American Christianity\n\n\n\n\n\n\nAj Averett\n\n\nJan 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Triangle of Power\n\n\n\n\n\n\nAj Averett\n\n\nJan 3, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/power_triangle/power_triangle.html",
+    "href": "posts/power_triangle/power_triangle.html",
+    "title": "The Triangle of Power",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "A post on Math Overflow about the relationship between powers, roots, and logs sparked the birth of a notation to harmonize these seemingly unrelated concepts. Grant Sanderson from 3Blue1Brown further popularized and named this notation as, “The Triangle of Power”"
+  },
+  {
+    "objectID": "posts/power_triangle/power_triangle.html#a-remains-constant",
+    "href": "posts/power_triangle/power_triangle.html#a-remains-constant",
+    "title": "The Triangle of Power",
+    "section": "\\(a\\) remains constant",
+    "text": "\\(a\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Exponents}\n\\\\\\\\\n&\n\\log_a(x\\times y) = \\log_a(x) + \\log_b(x)\n&\na^{x + y} = a^x \\times a ^y\n\\\\\\\\\n&\n\\log_a(\\frac{x}{y}) = \\log_a(x) - \\log_b(x)\n&\na^{x - y} = \\frac{a^x}{a^y}\n\\end{align*}\n\\]"
+  },
+  {
+    "objectID": "posts/power_triangle/power_triangle.html#b-remains-constant",
+    "href": "posts/power_triangle/power_triangle.html#b-remains-constant",
+    "title": "The Triangle of Power",
+    "section": "\\(b\\) remains constant",
+    "text": "\\(b\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Exponents}\n&\\text{Properties of Roots}\n\\\\\\\\\n&   xy^b = x^b \\times y^b\n&   \\sqrt[b]{x\\times y} = \\sqrt[b]{x} \\times \\sqrt[b]{y}\n\\\\\\\\\n&   \\left(\\frac{x}{y}\\right)^b = \\frac{x^b}{y^b}\n&   \\sqrt[b]{\\frac{x}{y}} = \\frac{\\sqrt[b]{x}}{\\sqrt[b]{y}}\n\\end{align*}\n\\]"
+  },
+  {
+    "objectID": "posts/power_triangle/power_triangle.html#c-remains-constant",
+    "href": "posts/power_triangle/power_triangle.html#c-remains-constant",
+    "title": "The Triangle of Power",
+    "section": "\\(c\\) remains constant",
+    "text": "\\(c\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Roots}\n\\\\\\\\\n&   \\log_{x\\times y}(c) = \\left(\\left(\\log_xc\\right)^{-1} + \\left(\\log_yc\\right)^{-1}\\right)^{-1}\n&   \\sqrt[(x^{-1}+ y^{-1})^{-1}]{c} = \\sqrt[x]{c} \\times \\sqrt[y]{c}\n\\\\\\\\\n&   \\log_{\\frac{x}{y}}(c) = \\left(\\left(\\log_xc\\right)^{-1} - \\left(\\log_yc\\right)^{-1}\\right)^{-1}\n&   \\sqrt[(x^{-1}- y^{-1})^{-1}]{c} = \\frac{\\sqrt[x]{c}}{\\sqrt[y]{c}}\n\\end{align*}\n\\]"
+  },
+  {
+    "objectID": "posts/power_triangle/power_triangle.html#a-remains-constant-1",
+    "href": "posts/power_triangle/power_triangle.html#a-remains-constant-1",
+    "title": "The Triangle of Power",
+    "section": "\\(a\\) remains constant",
+    "text": "\\(a\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Exponents}\n\\\\\\\\\n&\n_{a}\n\\stackrel{\\phantom{b}}\n\\triangle _{xy}\n={}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{x} +{}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{y}\n&\n_{a}\n\\stackrel{x+y}\n\\triangle _{\\phantom{c}}\n={}\n_{a}\\stackrel{x}\\triangle _{\\phantom{c}} \\times{}\n_{a}\\stackrel{y}\\triangle _{\\phantom{c}}\n\\\\\\\\\n&_{a}\n\\stackrel{\\phantom{b}}\n\\triangle _{\\frac{x}{y}}\n={}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{x} -{}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{y}\n&\n_{a}\n\\stackrel{x-y}\n\\triangle _{\\phantom{c}}\n={}\n\\frac\n{_{a}\\stackrel{x}\\triangle _{\\phantom{c}}}\n{_{a}\\stackrel{y}\\triangle _{\\phantom{c}}}\n\\end{align*}\n\\]"
+  },
+  {
+    "objectID": "posts/power_triangle/power_triangle.html#b-remains-constant-1",
+    "href": "posts/power_triangle/power_triangle.html#b-remains-constant-1",
+    "title": "The Triangle of Power",
+    "section": "\\(b\\) remains constant",
+    "text": "\\(b\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Exponents}\n&\\text{Properties of Roots}\n\\\\\\\\\n&\n_{x\\times y}\n\\stackrel{b}\n\\triangle _{\\phantom{c}}\n={}\n_{x}\\stackrel{b}\\triangle _{} \\times{}\n_{y}\\stackrel{b}\\triangle _{}\n&\n_{\\phantom{a}}\n\\stackrel{b}\n\\triangle _{x\\times y}\n={}\n_{\\phantom{x}}\\stackrel{b}\\triangle _{x} \\times{}\n_{\\phantom{x}}\\stackrel{b}\\triangle _{y}\n\\\\\\\\\n&_{\\frac{x}{y}}\n\\stackrel{b}\n\\triangle _{\\phantom{c}}\n={}\n\\frac\n{_{x}\\stackrel{b}\\triangle _{\\phantom{c}} }\n{_{y}\\stackrel{b}\\triangle _{\\phantom{c}} }\n&\n_{\\phantom{a}}\n\\stackrel{b}\n\\triangle _{\\frac{x}{y}}\n=\n\\frac\n{_{\\phantom{a}}\\stackrel{b}\\triangle _{x}}\n{_{\\phantom{a}}\\stackrel{b}\\triangle _{y}}\n\\end{align*}\n\\]"
+  },
+  {
+    "objectID": "posts/power_triangle/power_triangle.html#c-remains-constant-1",
+    "href": "posts/power_triangle/power_triangle.html#c-remains-constant-1",
+    "title": "The Triangle of Power",
+    "section": "\\(c\\) remains constant",
+    "text": "\\(c\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Roots}\n\\\\\\\\\n&\n_{x\\times y}\n\\stackrel{\\phantom{b}}\n\\triangle _{c}\n={}\n\\left(\n\\left( _{x}\\stackrel{}\\triangle _{c}\\right)^{-1} +{}\n\\left(_{y}\\stackrel{}\\triangle _{c}\\right)^{-1}\n\\right)^{-1}\n&\n_{\\phantom{a}}\n\\stackrel{\n  \\left(x^{-1}+y^{-1}\\right)^{-1}\n}\n\\triangle _{c}\n={}\n_{\\phantom{x}}\\stackrel{x}\\triangle _{c} \\times{}\n_{\\phantom{x}}\\stackrel{y}\\triangle _{c}\n\\\\\\\\\n&\n_{\\frac{x}{y}}\n\\stackrel{\\phantom{b}}\n\\triangle _{c}\n={}\n\\left(\n\\left( _{x}\\stackrel{}\\triangle _{c}\\right)^{-1} -{}\n\\left(_{y}\\stackrel{}\\triangle _{c}\\right)^{-1}\n\\right)^{-1}\n&\n_{\\phantom{a}}\n\\stackrel{\n  \\left(x^{-1}-y^{-1}\\right)^{-1}\n}\n\\triangle _{c}\n={}\n\\frac\n{_{\\phantom{x}}\\stackrel{x}\\triangle _{c} }\n{_{\\phantom{x}}\\stackrel{y}\\triangle _{c}}\n\\end{align*}\n\\]"
   },
   {
     "objectID": "about.html",
@@ -19,13 +61,6 @@
     "title": "Aj’s Journey",
     "section": "",
     "text": "Aj’s Journey\n(this page is a work in progress)\n\n2000 June\nAj was born to the name Min Soeb in Daejon, South Korea. For the first year of his life, he was raised in the Korean foster care system.\n\n\n\n2002 Feb\nThe Averett’s adopted Aj and brought him to Phoenix Arizona in the United States. He became the youngest of 5 children. His mother’s family was from Mexico and his father’s family from Wyoming. Througout his life, his mother worked as an educator and his father worked in sales with companies across India and Asia\n\n\n\n2008 Dec\nAj and his family moved to Austin, Texas. Once he was old enough, he started working. During his time in Texas, he worked at a bakery, a martial arts studio, and even as a tire repair technician. He also earned his Eagle Scout award.\n\n\n\n2014 June\nAj attended Lake Travis High School and graduated in 2018. He was involved in the marching band, varsity choir, DECA International, and theatre.\n\n\n\n2018 Aug\nAfter Aj graduated, he served as a Technology Consultant in the Maryland Baltimore Mormon Mission.\n\n\n\n2020 April\nAj decided to study data science in Rexburg, Idaho. He became a tutor, TA and even won a few hackathons.\n\n\n\n2022 July\nWPA Intelligence in Washington DC hired Aj as a Data Science Intern. He worked on the 2022 midterm elections, analyzing voter data trends, applying machine learning models."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
     "objectID": "posts/pca/pca.html",
@@ -77,55 +112,6 @@
     "text": "PC6\nProbably measures a variable related to something with race and crime\n\n\nCode\nPC6\n\n\ncrime_rate_per_100k    0.253964\nhispanic               0.253551\nag_assault             0.252535\nrape                   0.248669\nblack                 -0.237223\nName: PC6, dtype: float64"
   },
   {
-    "objectID": "posts/power_triangle/power_triangle.html",
-    "href": "posts/power_triangle/power_triangle.html",
-    "title": "The Triangle of Power",
-    "section": "",
-    "text": "A post on Math Overflow about the relationship between powers, roots, and logs sparked the birth of a notation to harmonize these seemingly unrelated concepts. Grant Sanderson from 3Blue1Brown further popularized and named this notation as, “The Triangle of Power”"
-  },
-  {
-    "objectID": "posts/power_triangle/power_triangle.html#a-remains-constant",
-    "href": "posts/power_triangle/power_triangle.html#a-remains-constant",
-    "title": "The Triangle of Power",
-    "section": "\\(a\\) remains constant",
-    "text": "\\(a\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Exponents}\n\\\\\\\\\n&\n\\log_a(x\\times y) = \\log_a(x) + \\log_b(x)\n&\na^{x + y} = a^x \\times a ^y\n\\\\\\\\\n&\n\\log_a(\\frac{x}{y}) = \\log_a(x) - \\log_b(x)\n&\na^{x - y} = \\frac{a^x}{a^y}\n\\end{align*}\n\\]"
-  },
-  {
-    "objectID": "posts/power_triangle/power_triangle.html#b-remains-constant",
-    "href": "posts/power_triangle/power_triangle.html#b-remains-constant",
-    "title": "The Triangle of Power",
-    "section": "\\(b\\) remains constant",
-    "text": "\\(b\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Exponents}\n&\\text{Properties of Roots}\n\\\\\\\\\n&   xy^b = x^b \\times y^b\n&   \\sqrt[b]{x\\times y} = \\sqrt[b]{x} \\times \\sqrt[b]{y}\n\\\\\\\\\n&   \\left(\\frac{x}{y}\\right)^b = \\frac{x^b}{y^b}\n&   \\sqrt[b]{\\frac{x}{y}} = \\frac{\\sqrt[b]{x}}{\\sqrt[b]{y}}\n\\end{align*}\n\\]"
-  },
-  {
-    "objectID": "posts/power_triangle/power_triangle.html#c-remains-constant",
-    "href": "posts/power_triangle/power_triangle.html#c-remains-constant",
-    "title": "The Triangle of Power",
-    "section": "\\(c\\) remains constant",
-    "text": "\\(c\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Roots}\n\\\\\\\\\n&   \\log_{x\\times y}(c) = \\left(\\left(\\log_xc\\right)^{-1} + \\left(\\log_yc\\right)^{-1}\\right)^{-1}\n&   \\sqrt[(x^{-1}+ y^{-1})^{-1}]{c} = \\sqrt[x]{c} \\times \\sqrt[y]{c}\n\\\\\\\\\n&   \\log_{\\frac{x}{y}}(c) = \\left(\\left(\\log_xc\\right)^{-1} - \\left(\\log_yc\\right)^{-1}\\right)^{-1}\n&   \\sqrt[(x^{-1}- y^{-1})^{-1}]{c} = \\frac{\\sqrt[x]{c}}{\\sqrt[y]{c}}\n\\end{align*}\n\\]"
-  },
-  {
-    "objectID": "posts/power_triangle/power_triangle.html#a-remains-constant-1",
-    "href": "posts/power_triangle/power_triangle.html#a-remains-constant-1",
-    "title": "The Triangle of Power",
-    "section": "\\(a\\) remains constant",
-    "text": "\\(a\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Exponents}\n\\\\\\\\\n&\n_{a}\n\\stackrel{\\phantom{b}}\n\\triangle _{xy}\n={}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{x} +{}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{y}\n&\n_{a}\n\\stackrel{x+y}\n\\triangle _{\\phantom{c}}\n={}\n_{a}\\stackrel{x}\\triangle _{\\phantom{c}} \\times{}\n_{a}\\stackrel{y}\\triangle _{\\phantom{c}}\n\\\\\\\\\n&_{a}\n\\stackrel{\\phantom{b}}\n\\triangle _{\\frac{x}{y}}\n={}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{x} -{}\n_{a}\\stackrel{\\phantom{b}}\\triangle _{y}\n&\n_{a}\n\\stackrel{x-y}\n\\triangle _{\\phantom{c}}\n={}\n\\frac\n{_{a}\\stackrel{x}\\triangle _{\\phantom{c}}}\n{_{a}\\stackrel{y}\\triangle _{\\phantom{c}}}\n\\end{align*}\n\\]"
-  },
-  {
-    "objectID": "posts/power_triangle/power_triangle.html#b-remains-constant-1",
-    "href": "posts/power_triangle/power_triangle.html#b-remains-constant-1",
-    "title": "The Triangle of Power",
-    "section": "\\(b\\) remains constant",
-    "text": "\\(b\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Exponents}\n&\\text{Properties of Roots}\n\\\\\\\\\n&\n_{x\\times y}\n\\stackrel{b}\n\\triangle _{\\phantom{c}}\n={}\n_{x}\\stackrel{b}\\triangle _{} \\times{}\n_{y}\\stackrel{b}\\triangle _{}\n&\n_{\\phantom{a}}\n\\stackrel{b}\n\\triangle _{x\\times y}\n={}\n_{\\phantom{x}}\\stackrel{b}\\triangle _{x} \\times{}\n_{\\phantom{x}}\\stackrel{b}\\triangle _{y}\n\\\\\\\\\n&_{\\frac{x}{y}}\n\\stackrel{b}\n\\triangle _{\\phantom{c}}\n={}\n\\frac\n{_{x}\\stackrel{b}\\triangle _{\\phantom{c}} }\n{_{y}\\stackrel{b}\\triangle _{\\phantom{c}} }\n&\n_{\\phantom{a}}\n\\stackrel{b}\n\\triangle _{\\frac{x}{y}}\n=\n\\frac\n{_{\\phantom{a}}\\stackrel{b}\\triangle _{x}}\n{_{\\phantom{a}}\\stackrel{b}\\triangle _{y}}\n\\end{align*}\n\\]"
-  },
-  {
-    "objectID": "posts/power_triangle/power_triangle.html#c-remains-constant-1",
-    "href": "posts/power_triangle/power_triangle.html#c-remains-constant-1",
-    "title": "The Triangle of Power",
-    "section": "\\(c\\) remains constant",
-    "text": "\\(c\\) remains constant\n\\[\n\\begin{align*}\n&\\text{Properties of Logarithms}\n&\\text{Properties of Roots}\n\\\\\\\\\n&\n_{x\\times y}\n\\stackrel{\\phantom{b}}\n\\triangle _{c}\n={}\n\\left(\n\\left( _{x}\\stackrel{}\\triangle _{c}\\right)^{-1} +{}\n\\left(_{y}\\stackrel{}\\triangle _{c}\\right)^{-1}\n\\right)^{-1}\n&\n_{\\phantom{a}}\n\\stackrel{\n  \\left(x^{-1}+y^{-1}\\right)^{-1}\n}\n\\triangle _{c}\n={}\n_{\\phantom{x}}\\stackrel{x}\\triangle _{c} \\times{}\n_{\\phantom{x}}\\stackrel{y}\\triangle _{c}\n\\\\\\\\\n&\n_{\\frac{x}{y}}\n\\stackrel{\\phantom{b}}\n\\triangle _{c}\n={}\n\\left(\n\\left( _{x}\\stackrel{}\\triangle _{c}\\right)^{-1} -{}\n\\left(_{y}\\stackrel{}\\triangle _{c}\\right)^{-1}\n\\right)^{-1}\n&\n_{\\phantom{a}}\n\\stackrel{\n  \\left(x^{-1}-y^{-1}\\right)^{-1}\n}\n\\triangle _{c}\n={}\n\\frac\n{_{\\phantom{x}}\\stackrel{x}\\triangle _{c} }\n{_{\\phantom{x}}\\stackrel{y}\\triangle _{c}}\n\\end{align*}\n\\]"
-  },
-  {
     "objectID": "posts/usa_christian/index.html",
     "href": "posts/usa_christian/index.html",
     "title": "State of American Christianity",
@@ -138,47 +124,5 @@
     "title": "State of American Christianity",
     "section": "",
     "text": "Another aspect of the decline of Christianity in the United States is the weakening of its strength within the population. This can be seen in the decreasing participation in religious practices such as church attendance.\nAccording to the GSS, the proportion of general Christians who do not attend church has increased from 15% in 1970 to 23% in 2020. Additionally, the proportion of Christians who attend church weekly has declined from 41% in 1970 to 36% in 2020. However, the proportion of Christians who attend church either monthly or less frequently has remained relatively stable.\nThis decline in church attendance is particularly pronounced among young Christians. The proportion of young Christians who attend church weekly or more frequently has decreased in all categories, except for the “seldom” category in which young Christians increased from 23% in 1970 to 45% in 2020.\nTechnical Note: This code is using the tidyverse and patchwork library to analyze and create a plot of church attendance among Christians over time. The code first filters the dataframe to only include rows where the “age” column contains numeric values, and then converts the “age” and “year” columns to numeric format. Next, it combines all Christian denominations as a single variable called “Christian”, and then filters to only Christians. The code replaces the several different categories of church attendance to Weekly, Monthly, Yearly, and Seldom. The code then groups and counts how many people in each category and uses “ggplot” to make a visualization.\n\n\nCode\nchristian_attend &lt;- df_raw %&gt;%\n  filter(str_detect(as.character(age), \"^[0-9]+$\")) %&gt;% \n  mutate(age = as.numeric(age)) %&gt;% \n  mutate(year = plyr::round_any(as.numeric(year), 10)) %&gt;% \n  mutate(age = plyr::round_any(as.numeric(age), 10)) %&gt;% \n  mutate(across(everything(), ~replace(., . %in% c(\"Protestant\",\"Catholic\",\"Orthodox-christian\") , \"Christian\"))) %&gt;% \n  filter(relig == \"Christian\") %&gt;% \n  filter(!attend %in% c(\".d:  Do not Know/Cannot Choose\",\".s:  Skipped on Web\")) %&gt;%\n  mutate(attend = ifelse(attend %in% c(\"Every week\",\"Nearly every week\",\"Several times a week\"), \"Weekly\", attend),\n         attend = ifelse(attend %in% c(\"2-3 times a month\",\"About once a month\",\"At least monthly\"), \"Monthly\", attend),\n         attend = ifelse(attend %in% c(\"About once or twice a year\",\"Several times a year\"), \"Yearly\", attend),\n         attend = ifelse(attend %in% c(\"Less than once a year\",\"Never\"), \"Seldom\", attend)) %&gt;% \n  group_by(year,attend) %&gt;% \n  count() %&gt;% \n  group_by(year) %&gt;% \n  mutate(attend = factor(attend, levels = c(\"Weekly\", \"Monthly\", \"Yearly\",\"Seldom\"))) %&gt;% \n  mutate(percent = round(n/sum(n),5)) %&gt;% \n  mutate(percent_label = (round(n/sum(n),2))*100) %&gt;% \n  mutate(percent_label = percent_label %&gt;%  as.character() %&gt;% paste0(\"%\")) %&gt;% \n  ggplot(aes(x = year, y = percent, group = attend, color = attend)) + \n  geom_line(linewidth = 1)+\n  geom_point(size = 3.5) +\n  labs(\n    x = \"Year\",\n    y = \"\",\n    color = \"Attendance\",\n    title = \"Church Attendance Among\\nChristians Over Time\"\n    ) +\n  ggrepel::geom_text_repel(aes(label = percent_label)) +\n  theme_bw() + theme(legend.position = 'none')\n  \n\ndf_christian &lt;- df_raw %&gt;%\n  filter(str_detect(as.character(age), \"^[0-9]+$\")) %&gt;% \n  mutate(age = as.numeric(age)) %&gt;% \n  mutate(year = plyr::round_any(as.numeric(year), 10)) %&gt;% \n  mutate(age = plyr::round_any(as.numeric(age), 10)) %&gt;% \n  filter(!attend %in% c(\".d:  Do not Know/Cannot Choose\",\".s:  Skipped on Web\")) %&gt;%\n  mutate(attend = ifelse(attend %in% c(\"Every week\",\"Nearly every week\",\"Several times a week\"), \"Weekly\", attend),\n         attend = ifelse(attend %in% c(\"2-3 times a month\",\"About once a month\",\"At least monthly\"), \"Monthly\", attend),\n         attend = ifelse(attend %in% c(\"About once or twice a year\",\"Several times a year\"), \"Yearly\", attend),\n         attend = ifelse(attend %in% c(\"Less than once a year\",\"Never\"), \"Seldom\", attend)) %&gt;% \n  filter(attend != \".n:  No answer\") %&gt;% \n  mutate(attend = factor(attend, levels = c(\"Weekly\", \"Monthly\", \"Yearly\",\"Seldom\"))) \n\nchristian_attend_youth &lt;- df_christian %&gt;%\n  filter(age %in% c(20,30)) %&gt;% \n  group_by(year,attend) %&gt;% \n  count() %&gt;% \n  group_by(year) %&gt;% \n  mutate(percent = round(n/sum(n),5)) %&gt;% \n  mutate(percent_label = (round(n/sum(n),2))*100) %&gt;% \n  mutate(percent_label = percent_label %&gt;%  as.character() %&gt;% paste0(\"%\")) %&gt;% \n  ggplot(aes(x = year, y = percent, group = attend, color = attend)) + \n  geom_line(linewidth = 1)+\n  geom_point(size = 3.5) +\n  labs(\n    x = \"Year\",\n    y = \"\",\n    color = \"Attendance\",\n    title = \"Church Attendance Among\\nChristian Youth Over Time\"\n    ) +\n  ggrepel::geom_text_repel(aes(label = percent_label)) +\n  theme_bw() + \n  theme(\n    # legend.position = 'bottom',\n    legend.direction = \"vertical\"\n    )\n\n\nchristian_attend + christian_attend_youth & scale_y_continuous(limits = c(.1, .46),labels = scales::percent)\n\n\n\n\n\nStrength of Protestants\nWhile overall Christianity in the United States is in decline, the decline has not been evenly distributed across different denominations. In particular, the decline of Protestant Christianity appears to be less pronounced than that of Christianity as a whole.\nWhen it comes to church attendance, the data shows that weekly attendance among Protestants has remained relatively stable. According to the GSS, the proportion of Protestants who attend church weekly has remained around 35% since 1970. Furthermore, the weekly attendance for both general Protestants and young Protestants actually increased slightly.\n\n\nCode\nprot_attend &lt;- df_christian %&gt;% \n  filter(relig == \"Protestant\") %&gt;% \n  group_by(year,attend) %&gt;% \n  count() %&gt;% \n  group_by(year) %&gt;% \n  mutate(percent = round(n/sum(n),5)) %&gt;% \n  mutate(percent_label = (round(n/sum(n),2))*100) %&gt;% \n  mutate(percent_label = percent_label %&gt;%  as.character() %&gt;% paste0(\"%\")) %&gt;% \n  ggplot(aes(x = year, y = percent, group = attend, color = attend)) + \n  geom_line(linewidth = 1)+\n  geom_point(size = 3.5) +\n  labs(\n    x = \"Year\",\n    y = \"\",\n    color = \"Attendance\",\n    title = \"Church Attendance Among\\nProtestants Over Time\"\n    ) +\n  ggrepel::geom_text_repel(aes(label = percent_label)) +\n  theme_bw() +  theme(legend.position = 'none')\n\nprot_attend_youth &lt;- df_christian %&gt;%\n  filter(relig == \"Protestant\") %&gt;% \n  filter(age %in% c(20,30)) %&gt;% \n  group_by(year,attend) %&gt;% \n  count() %&gt;% \n  group_by(year) %&gt;% \n  mutate(percent = round(n/sum(n),5)) %&gt;% \n  mutate(percent_label = (round(n/sum(n),2))*100) %&gt;% \n  mutate(percent_label = percent_label %&gt;%  as.character() %&gt;% paste0(\"%\")) %&gt;% \n  ggplot(aes(x = year, y = percent, group = attend, color = attend)) + \n  geom_line(linewidth = 1)+\n  geom_point(size = 3.5) +\n  labs(\n    x = \"Year\",\n    y = \"\",\n    color = \"\",\n    title = \"Church Attendance Among\\nProtestant Youth Over Time\"\n    ) +\n  ggrepel::geom_text_repel(aes(label = percent_label)) +\n  theme_bw() + \n  theme(\n    # legend.position = 'bottom',\n    legend.direction = \"vertical\"\n    )\n\n\n\nprot_attend + prot_attend_youth & scale_y_continuous(limits = c(.1, .42),labels = scales::percent)\n\n\n\n\n\nStrength of Catholics\nWhile Christianity as a whole is in decline, the decline has not been evenly distributed across different denominations. Among all Christian denominations, the Catholic Church appears to be the one that has been most affected by the decline in attendance.\nAccording to the GSS, weekly attendance among Catholics has decreased significantly since 1970. Among general Catholics, weekly attendance dropped from 53% to 27% during this time period. Similarly, weekly attendance among Catholic youth has also decreased, declining from 40% in 1970 to 15% in 2020.\nHowever, the decline in attendance has not been limited to weekly attendance. The proportion of Catholics who attend church seldom or less frequently has also increased. Seldom attendance increased from 11% in 1970 to 26% in 2020. Furthermore, the youth seldom attendance doubled from 12% to 24% in 2020.\n\n\nCode\ncath_attend &lt;- df_christian %&gt;%\n  filter(relig == \"Catholic\") %&gt;% \n  group_by(year,attend) %&gt;% \n  count() %&gt;% \n  group_by(year) %&gt;% \n  mutate(percent = round(n/sum(n),5)) %&gt;% \n  mutate(percent_label = (round(n/sum(n),2))*100) %&gt;% \n  mutate(percent_label = percent_label %&gt;%  as.character() %&gt;% paste0(\"%\")) %&gt;% \n  ggplot(aes(x = year, y = percent, group = attend, color = attend)) + \n  geom_line(linewidth = 1)+\n  geom_point(size = 3.5) +\n  labs(\n    x = \"Year\",\n    y = \"\",\n    color = \"Attendance\",\n    title = \"Church Attendance Among\\nCatholics Over Time\"\n    ) +\n  ggrepel::geom_text_repel(aes(label = percent_label)) +\n  theme_bw() + theme(legend.position = 'none')\n\ncath_attend_youth &lt;- df_christian %&gt;%\n  filter(relig == \"Catholic\") %&gt;% \n  filter(age %in% c(20,30)) %&gt;% \n  group_by(year,attend) %&gt;% \n  count() %&gt;% \n  group_by(year) %&gt;% \n  mutate(percent = round(n/sum(n),5)) %&gt;% \n  mutate(percent_label = (round(n/sum(n),2))*100) %&gt;% \n  mutate(percent_label = percent_label %&gt;%  as.character() %&gt;% paste0(\"%\")) %&gt;% \n  ggplot(aes(x = year, y = percent, group = attend, color = attend)) + \n  geom_line(linewidth = 1) +\n  geom_point(size = 3.5) +\n  labs(\n    x = \"Year\",\n    y = \"\",\n    color = \"Attendance\",\n    title = \"Church Attendance Among\\nCatholic Youth Over Time\"\n    ) +\n  ggrepel::geom_text_repel(aes(label = percent_label)) +\n  theme_bw() + \n  theme(\n    # legend.position = 'bottom',\n    legend.direction = \"vertical\"\n    )\n  \n\ncath_attend + cath_attend_youth & scale_y_continuous(limits = c(.1, .54),labels = scales::percent)\n\n\n\n\n\nCharting the decline\nIn conclusion, this blog post has discussed the decline of Christianity in the United States over the past few decades, as reported by the GSS. The data shows that the proportion of Christians in the U.S. population has dropped from around 90% in the early 1970s to around 70% in 2020.\nThe decline of Christianity is also reflected in the weakening of its strength within the population, as seen in the decreasing participation in religious practices such as church attendance. The proportion of general Christians who do not attend church has increased from 15% in 1970 to 23% in 2020 and the proportion of Christians who attend church weekly has declined from 41% in 1970 to 36% in 2020. However, the proportion of Christians who attend church either monthly or less frequently has remained relatively stable.\nWhen looking at different Christian denominations, the decline of Protestant Christianity appears to be less pronounced than that of Christianity as a whole. The proportion of Protestants who attend church weekly has remained around 35% since 1970, and weekly attendance for both general Protestants and young Protestants actually increased slightly. On the other hand, the Catholic Church appears to be the one that has been most affected by the decline in attendance. Among general Catholics, weekly attendance dropped from 53% to 27% during this time period, and the youth seldom attendance doubled from 12% to 24% in 2020.\nThe term “Chreaster” is defined as such: “A Christian who does not frequently attend church, attending only on the major holidays of Christmas and Easter.” (Wiktionary) Chreasters have been on the increase especially among younger Christians and Catholics.\nWhile this blog post does not try to explain the ‘why’ in this phenomenon, there are several factors that readers can probably think of that have led to this decline. Some of the possible factors include the increasing secularization of American society, the rise of social media and the internet, the growing diversity of American society, the sexual abuse scandals that have plagued the Catholic Church, and the loss of trust and credibility among Catholics."
-  },
-  {
-    "objectID": "about.html#june-14th",
-    "href": "about.html#june-14th",
-    "title": "About Me",
-    "section": "",
-    "text": "Aj was born to the name Min Soeb in Daejon, South Korea. For the first year of his life, he was raised in the Korean foster care system.\n(put picture of some adoption papers info)"
-  },
-  {
-    "objectID": "about.html#feb-something",
-    "href": "about.html#feb-something",
-    "title": "About Me",
-    "section": "",
-    "text": "The Averett’s adopted Aj and brought him to Phoenix Arizona in the United States. He became the youngest of 5 children. His mother was an educator with family from Mexico and his dather worked in sales with companies across India and East Asia"
-  },
-  {
-    "objectID": "about.html#dec",
-    "href": "about.html#dec",
-    "title": "About Me",
-    "section": "",
-    "text": "Aj and his family moved to Austin, Texas. He attended Lake Travis High School and graduated in 2018. He was involved in the marching band, varsity choir, DECA International, and theatre. During highschool, he worked at a bakery, a martial arts studio, and even as a tire repair technician"
-  },
-  {
-    "objectID": "about.html#aug",
-    "href": "about.html#aug",
-    "title": "About Me",
-    "section": "",
-    "text": "After Aj graduated, he served as a Technology Consultant in the Maryland Baltimore Mormon Mission."
-  },
-  {
-    "objectID": "about.html#april",
-    "href": "about.html#april",
-    "title": "About Me",
-    "section": "",
-    "text": "Aj decided to study data science in Rexburg, Idaho."
-  },
-  {
-    "objectID": "about.html#july",
-    "href": "about.html#july",
-    "title": "About Me",
-    "section": "",
-    "text": "WPA Intelligence in Washington DC hired Aj as a Data Science Intern. He worked on the 2022 midterm elections, analyzing voter data trends, applying machine learning models."
   }
 ]
