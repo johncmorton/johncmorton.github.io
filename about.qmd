@@ -1,0 +1,53 @@
+---
+title: ""
+---
+
+# Aj's Journey
+
+(this page is a work in progress)
+
+### 2000 June
+
+Aj was born to the name Min Soeb in Daejon, South Korea. For the first year of his life, he was raised in the Korean foster care system. 
+
+<img src="images/story/adoption.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+
+
+### 2002 Feb
+
+The Averett's adopted Aj and brought him to Phoenix Arizona in the United States. He became the youngest of 5 children. His mother's family was from Mexico and his father's family from Wyoming. Througout his life, his mother worked as an educator and his father worked in sales with companies across India and Asia
+
+<img src="images/story/family.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+
+
+### 2008 Dec
+
+Aj and his family moved to Austin, Texas. Once he was old enough, he started working. During his time in Texas, he worked at a bakery, a martial arts studio, and even as a tire repair technician. He also earned his Eagle Scout award.
+
+<img src="images/story/eagle.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+
+### 2014 June 
+
+Aj attended Lake Travis High School and graduated in 2018. He was involved in the marching band, varsity choir, DECA International, and theatre.
+
+<img src="images/story/deca.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+
+### 2018 Aug
+
+After Aj graduated, he served as a Technology Consultant in the Maryland Baltimore Mormon Mission.
+
+<img src="images/story/mission.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+
+
+### 2020 April 
+
+Aj decided to study data science in Rexburg, Idaho. He became a tutor, TA and even won a few hackathons. 
+
+<img src="images/story/hackathon.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+
+### 2022 July
+
+WPA Intelligence in Washington DC hired Aj as a Data Science Intern. He worked on the 2022 midterm elections, analyzing voter data trends, applying machine learning models.
+
+
+<img src="images/story/wpai.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">

@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "f12e8ff0"
+  },
+  "about.qmd": {
+    "about.html": "f0bb5abf"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "03c7ee82"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "b40caae4"
+  },
+  "posts/pca/pca.qmd": {
+    "pca.html": "76437bef"
+  },
+  "posts/power_triangle/power_triangle.qmd": {
+    "power_triangle.html": "8e71b01a"
+  },
+  "posts/usa_christian/index.qmd": {
+    "index.html": "a0e58d18"
+  }
+}

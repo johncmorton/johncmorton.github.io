@@ -1,28 +1,66 @@
 ---
-title: "About Me"
+title: ""
+page-layout: full
+resources: resume.pdf
+about: 
+    template: marquee
+    links: 
+    - text: "GitHub"
+      icon: github
+      href: "https://github.com/ajaverett"
+    - text: LinkedIn
+      icon: linkedin
+      href: https://www.linkedin.com/in/ajaverett/
+    - text: Resume
+      icon: file-text
+      href: "resume.pdf"
+    - text: Email
+      icon: envelope
+      href: mailto:ajaverett0@Gmail.com
+# https://quarto.org/docs/websites/website-listings.html
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+  categories: false
+  feed: true
 ---
 
-### [Resume](https://ajaverett.github.io/resume.pdf)
-
-Here is my resume as of June 2023. I am currently in my senior year at University studying Data Science with a minor in Statistics. I am looking for a full-time position in Data Science, Machine Learning, or Statistics. I am also open to internships.
-
-### [Blog and Portfolio](https://ajaverett.github.io/portfolio/)
-
-I have a blog and portfolio where I post about my projects and other things I find interesting. I am somewhat interested in politics, and other social sciences. I also like to write about my personal projects and other fun things.
-
-# Half-Baked Passion Projects
-
-### [A Brief Introduction to Statistics](https://ajaverett.github.io/statistics)
-
-I wrote/compiled this book as a way to introduce people to univariate and bivariate data, distributions, and hypothesis testing. I have always been interested in statistics, and I wanted to break down these concepts in a way that was easy to understand but went into enough detail to be useful.
-
-### [A Brief Introduction to Intelligence](https://ajaverett.github.io/intelligence)
-
-I wrote/compiled this book as a way to introduce people to the field of intelligence research and its criticisms. I have always been interested in the field of intelligence research, and I wanted to share my knowledge with others. I also wanted to make a book that was easy but robustly cited.
-
-### [Some Brief Counters around Heritability](https://ajaverett.github.io/heritability)
-
-I compiled this book as a way to counter some common claims against the idea of heritability (ratio of variance explained by genetics to total variation in a given phenotype). Understanding to two fronts to improving a phenotype (genetics and environment) is important to me.
+<!-- HERO SECTION -->
+::: {.column-screen}
+![](images/bg_hero.png){style="transform: translateY(-5em); height: 10% !important;"}
+:::
 
 
+<!-- ME SECTION -->
+:::: columns
 
+<!-- COL1 -->
+::: {.column width="70%"}
+
+# Meet Aj!
+
+### Data Scientist
+
+I'm a data scientist with a passion for Python, R, data visualization, and statistics/machine learning. 
+
+:::
+
+<!-- COL 2 (SPACE) -->
+::: {.column width="10%"}
+
+:::
+
+<!-- COL 3 -->
+::: {.column width="20%"}
+
+<br> ![](images/portrait.png){width="130%"}
+
+:::
+
+::::
+
+On this portfolio, I share and teach what I learn. To get started, you can check out my most popular content below. You can find me on GitHub, Instagram, and LinkedIn. Feel free to reach out to me via mail and subscribe to my email newsletter.
+
+
+<br><br>

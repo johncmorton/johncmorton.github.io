@@ -1,19 +1,23 @@
 project:
   type: website
-  output-dir: docs
 
 website:
-  title: "Aj Averett's Website"
+  title: "**Alan J Averett**"
   navbar:
+    background: "#FFFFFF"
     left:
       - href: index.qmd
-        text: Navigation
+        text: Home
+      - href: about.qmd
+        text: About
+      
 
 format:
   html:
-    theme: guide
+    max-width: 300%
+    theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
 
 
 

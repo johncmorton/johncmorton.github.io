@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.4.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Aj Averett’s Website - Welcome</title>
+<title>Alan J Averett -</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,10 +30,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -46,6 +47,11 @@ ul.task-list li input[type="checkbox"] {
   "panel-placement": "end",
   "type": "overlay",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -55,10 +61,42 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -69,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Aj Averett’s Website</span>
+    <span class="navbar-title"><strong>Alan J Averett</strong></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -81,84 +119,158 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Navigation</span></a>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About Me</a>
-  <ul class="collapse">
-  <li><a href="#resume" id="toc-resume" class="nav-link" data-scroll-target="#resume">Resume</a></li>
-  <li><a href="#blog-and-portfolio" id="toc-blog-and-portfolio" class="nav-link" data-scroll-target="#blog-and-portfolio">Blog and Portfolio</a></li>
-  </ul></li>
-  <li><a href="#passion-projects" id="toc-passion-projects" class="nav-link" data-scroll-target="#passion-projects">Passion Projects</a>
-  <ul class="collapse">
-  <li><a href="#a-brief-introduction-to-statistics" id="toc-a-brief-introduction-to-statistics" class="nav-link" data-scroll-target="#a-brief-introduction-to-statistics">A Brief Introduction to Statistics</a></li>
-  <li><a href="#a-brief-introduction-to-intelligence" id="toc-a-brief-introduction-to-intelligence" class="nav-link" data-scroll-target="#a-brief-introduction-to-intelligence">A Brief Introduction to Intelligence</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Welcome</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
+<div class="quarto-about-marquee page-columns page-full column-body">
+  <div class="about-image-container">
   </div>
-  
+  <div class="about-contents page-columns page-full">
+     <main class="content page-columns page-full column-body" id="quarto-document-content">
+<!-- HERO SECTION -->
+<div class="column-screen">
+<p><img src="images/bg_hero.png" class="img-fluid" style="transform: translateY(-5em); height: 10% !important;"></p>
+</div>
+<!-- ME SECTION -->
+<div class="columns">
+<!-- COL1 --><div class="column" style="width:70%;">
+<section id="meet-aj" class="level1">
+<h1>Meet Aj!</h1>
+<section id="data-scientist" class="level3">
+<h3 data-anchor-id="data-scientist">Data Scientist</h3>
+<p>I’m a data scientist with a passion for Python, R, data visualization, and statistics/machine learning.</p>
+</section>
+</section>
+</div><!-- COL 2 (SPACE) --><div class="column" style="width:10%;">
+</div><!-- COL 3 --><div class="column" style="width:20%;">
+<p><br> <img src="images/portrait.png" class="img-fluid" style="width:130.0%"></p>
+</div>
+</div>
+<p>On this portfolio, I share and teach what I learn. To get started, you can check out my most popular content below. You can find me on GitHub, Instagram, and LinkedIn. Feel free to reach out to me via mail and subscribe to my email newsletter.</p>
+<p><br><br></p>
 
-</header>
 
-<section id="about-me" class="level1">
-<h1>About Me</h1>
-<section id="resume" class="level3">
-<h3 class="anchored" data-anchor-id="resume"><a href="https://ajaverett.github.io/resume/aj/resume.pdf">Resume</a></h3>
-<p>Here is my resume as of May 2023. I am currently in my senior year at University studying Data Science with a minor in Statistics. I am looking for a full-time position in Data Science, Machine Learning, or Statistician. I am also open to internships.</p>
-</section>
-<section id="blog-and-portfolio" class="level3">
-<h3 class="anchored" data-anchor-id="blog-and-portfolio"><a href="https://ajaverett.github.io/portfolio/">Blog and Portfolio</a></h3>
-<p>I have a blog and portfolio where I post about my projects and other things I find interesting. I am somewhat interested in politics, and other social sciences. I also like to write about my personal projects and other fun things.</p>
-</section>
-</section>
-<section id="passion-projects" class="level1">
-<h1>Passion Projects</h1>
-<section id="a-brief-introduction-to-statistics" class="level3">
-<h3 class="anchored" data-anchor-id="a-brief-introduction-to-statistics"><a href="https://ajaverett.github.io/statistics">A Brief Introduction to Statistics</a></h3>
-<p>I wrote/compiled this book as a way to introduce people to univariate and bivariate data, distributions, and hypothesis testing. I have always been interested in statistics, and I wanted to break down these concepts in a way that was easy to understand but went into enough detail to be useful.</p>
-</section>
-<section id="a-brief-introduction-to-intelligence" class="level3">
-<h3 class="anchored" data-anchor-id="a-brief-introduction-to-intelligence"><a href="https://ajaverett.github.io/intelligence">A Brief Introduction to Intelligence</a></h3>
-<p>I wrote/compiled this book as a way to introduce people to the field of intelligence research and its criticisms. I have always been interested in the field of intelligence research, and I wanted to share my knowledge with others. I also wanted to make a book that was easy but robustly cited.</p>
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="politics,visualization,statistics,python" data-listing-date-sort="1680242400000" data-listing-file-modified-sort="1697827677971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2328">
+<a href="./posts/pca/pca.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/pca/pca.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A county like mine
+</h5>
+<div class="card-text listing-description">
+Principal Component Analysis (PCA) is a statistical technique used to simplify complex data by reducing the number of variables while retaining most of the original…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Aj Averett
+</div>
+<div class="listing-date">
+Mar 31, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="religion,r,visualization" data-listing-date-sort="1673679600000" data-listing-file-modified-sort="1697828639535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2478">
+<a href="./posts/usa_christian/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/usa_christian/chreaster.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+State of American Christianity
+</h5>
+<div class="card-text listing-description">
+<strong>General Social Survey</strong>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Aj Averett
+</div>
+<div class="listing-date">
+Jan 14, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="notation,latex" data-listing-date-sort="1672729200000" data-listing-file-modified-sort="1697828219695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
+<a href="./posts/power_triangle/power_triangle.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/power_triangle/penrose.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Triangle of Power
+</h5>
+<div class="card-text listing-description">
+A post on Math Overflow about the relationship between powers, roots, and logs sparked the birth of a notation to harmonize these seemingly unrelated concepts. Grant…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Aj Averett
+</div>
+<div class="listing-date">
+Jan 3, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> 
+    <div class="about-footer"><div class="about-links">
+  <a href="https://github.com/ajaverett" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+  <a href="https://www.linkedin.com/in/ajaverett/" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="/resume.pdf" class="about-link" rel="" target="">
+    <i class="bi bi-file-text"></i>
+     <span class="about-link-text">Resume</span>
+  </a>
+  <a href="mailto:ajaverett0@Gmail.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+</div>
+  </div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -179,13 +291,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -238,10 +343,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -251,8 +355,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -265,6 +378,81 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -308,6 +496,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -333,6 +522,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        console.log("RESIZE");
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -393,6 +609,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

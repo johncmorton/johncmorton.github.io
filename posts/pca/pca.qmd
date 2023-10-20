@@ -1,0 +1,554 @@
+---
+title: "A county like mine"
+author: "Aj Averett"
+date: "2023-3-31"
+categories: ['politics','visualization','statistics','python']
+image: "pca.png"
+jupyter: python3
+format:
+  html:
+    code-fold: true
+---
+
+Principal Component Analysis (PCA) is a statistical technique used to simplify complex data by reducing the number of variables while retaining most of the original information. In other words, it helps to identify the most important patterns or relationships in large datasets by transforming them into a set of linearly uncorrelated variables, known as principal components.
+
+PCA works by identifying the underlying structure of the data and extracting the directions of maximum variance, which are the principal components. Each principal component is a linear combination of the original variables, and they are orthogonal to each other, meaning that they are uncorrelated. The first principal component captures the most significant variation in the data, and subsequent components capture decreasing amounts of variation. By selecting the appropriate number of principal components, we can reduce the dimensionality of the dataset while retaining the essential information.
+
+In this data science project, I used Principal Component Analysis (PCA) to visualize and explore the similarity of various counties in the United States based on a set of demographic metrics including th following:
+
+-   Population estimates
+-   Poverty estimates
+-   Unemployment rates
+-   Crime rates
+-   Racial demographics
+-   Political leanings
+-   Job industry composition
+-   General health status
+-   Social capital
+
+The primary utility of using PCA in this context is to reduce the dimensionality of the dataset while retaining as much information as possible. By doing so, we can efficiently examine patterns and relationships among counties in a lower-dimensional space.
+
+For each of these data, I applied PCA to transform the original high-dimensional data into a lower-dimensional space that still captures most of the variation present in the original dataset.
+
+By plotting the first two or three principal components on a 2D scatter plot, we can visualize the relationships among counties based on their transformed coordinates. This allows us to identify clusters of similar counties, outliers, or any other interesting patterns. In the code, I also highlighted a specific county (represented by highlighted_area), making it easier to identify its position relative to other counties in the reduced-dimensional space.
+
+Additionally, I created a bar chart displaying the proportion of variance explained by each principal component, which helps to determine the optimal number of components to retain for further analysis or modeling.
+
+The use of PCA in this project allows us to effectively summarize the complex, high-dimensional relationships between counties, making it easier to identify patterns and interpret the data.
+
+```{python}
+# Import
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+import plotly.express as px
+import plotly.graph_objects as go
+```
+
+# Population
+
+```{python}
+# Population Estimates
+pop = pd.read_excel("PopulationEstimates.xlsx", skiprows=4)
+
+pop.columns = ['fips_code', 'state', 'area_name', 'rucc_2013', 'pop_1990', 'pop_2000', 'pop_2010', 'pop_2020', 'pop_2021']
+
+pop = (pop
+    .filter(['fips_code', 'state', 'area_name', 'rucc_2013','pop_2021'], axis=1)
+    .query("state != 'Puerto Rico'"))
+
+pol = pd.read_csv('politics.csv').rename({'fips':'fips_code'}, axis=1)
+
+pop.head()
+```
+
+```{python}
+def make_pca(new_df, highlighted_area, dim=2):
+    # Merge
+    df_raw = (pd
+        .merge(pop, new_df, on='fips_code', how='left')
+        .dropna()
+        .query("state != 'Puerto Rico'"))
+
+    # Normalize data
+    scaler = StandardScaler()
+    df = scaler.fit_transform(df_raw.drop(['fips_code', 'state', 'area_name'], axis=1))
+    df_name = df_raw[['fips_code', 'state', 'area_name']].reset_index(drop=True)
+
+    # PCA analysis
+    pca = PCA()
+    pca.fit(df)
+    pcs = pca.transform(df)
+    pcs_df = pd.DataFrame(pcs)
+    df_final = pd.concat([df_name, pcs_df], axis=1)
+
+    df_return = df_final.drop(['state', 'area_name'], axis=1)
+
+    fig2 = pca_variance(pca)
+
+    # Marks
+    marker_colors = df_final['fips_code'].apply(lambda x: 'red' if x == highlighted_area else 'blue')
+    marker_sizes = df_final['fips_code'].apply(lambda x: 15 if x == highlighted_area else 5)
+
+    if dim == 2:
+        # Chart PC distance 2D
+        fig = px.scatter(df_final,
+            x=df_final.columns[len(df_name.columns)],
+            y=df_final.columns[len(df_name.columns) + 1],
+            hover_data=['fips_code','state','area_name'],
+            custom_data=['fips_code'],
+            color=marker_colors,
+            size=marker_sizes,
+            color_discrete_map={'red': 'red', 'blue': 'blue'})
+
+        fig.update_traces(marker=dict(symbol='circle', line=dict(width=1))
+        )
+
+        return fig, fig2, df_return
+
+    elif dim == 3:
+        fig = px.scatter_3d(df_final,
+            x=df_final.columns[len(df_name.columns)],
+            y=df_final.columns[len(df_name.columns) + 1],
+            z=df_final.columns[len(df_name.columns) + 2],
+            hover_data=['fips_code','state','area_name'],
+            custom_data=['fips_code'],
+            color=marker_colors,
+            size=marker_sizes,
+            color_discrete_map={'red': 'red', 'blue': 'blue'})
+
+        fig.update_traces(marker=dict(symbol='circle', line=dict(width=1)))
+
+        return fig, fig2, df_return
+
+def pca_variance(pca):
+    # Explained variance
+    explained_variance_ratio = pca.explained_variance_ratio_
+    num_components = len(explained_variance_ratio)
+    components = list(range(1, num_components + 1))
+
+    fig = go.Figure(data=[go.Bar(x=components, y=explained_variance_ratio)])
+
+    fig.update_layout(
+        title="Proportion of Variance Explained by Principal Components",
+        xaxis_title="Principal Components",
+        yaxis_title="Explained Variance Ratio",
+        yaxis=dict(tickformat=".2%"),
+    )
+
+    return fig
+
+```
+
+# Poverty
+
+Poverty variables:
+
+-   percent of population below poverty level overall in county 2020 (pct_povall_2020)
+-   percent of population below poverty level for minors in county 2020 (pct_pov017_2020)
+-   median household income in county 2020 (medhhinc_2020)
+
+```{python}
+# Poverty Estimates
+pov = pd.read_excel("PovertyEstimates.xlsx", skiprows=4)
+
+pov.columns = ['fips_code', 'stabr', 'area_name', 'rucc_2003', 'uic_2003', 'rucc_2013', 'uic_2013', 'povall_2020', 'ci90lb_all_2020', 'ci90ub_all_2020', 'pct_povall_2020', 'ci90lb_allp_2020', 'ci90ub_allp_2020', 'pov017_2020', 'ci90lb_017_2020', 'ci90ub_017_2020', 'pct_pov017_2020', 'ci90lb_017p_2020', 'ci90ub_017p_2020', 'pov517_2020', 'ci90lb_517_2020', 'ci90ub_517_2020', 'pct_pov517_2020', 'ci90lb_517p_2020', 'ci90ub_517p_2020', 'medhhinc_2020', 'ci90lb_inc_2020', 'ci90ub_inc_2020', 'pov04_2020', 'ci90lb_04_2020', 'ci90ub_04_2020', 'pct_pov04_2020', 'ci90lb_04p_2020', 'ci90ub_04p_2020']
+
+pov_filtered_columns = ['fips_code','pct_povall_2020','pct_pov017_2020','medhhinc_2020']
+
+pov = pov[pov_filtered_columns]
+```
+
+# Education
+
+Education variables:
+
+-   percent of population with less than high school diploma in county 2017-2021 (pct_less_than_hs_2017_21)
+-   percent of population with high school diploma in county 2017-2021 (pct_hs_diploma_2017_21)
+-   percent of population with some college or associate degree in county 2017-2021 (pct_some_college_assoc_degree_2017_21)
+-   percent of population with bachelor's degree or higher in county 2017-2021 (pct_bachelors_plus_2017_21)
+
+```{python}
+# Education
+edu = pd.read_excel("Education.xlsx", skiprows=3)
+
+edu.columns = ['fips_code', 'state', 'area_name', 'rucc_2003', 'uic_2003', 'rucc_2013', 'uic_2013', 'less_than_hs_1970', 'hs_diploma_1970', 'some_college_1_3_yrs_1970', 'college_4_yrs_plus_1970', 'pct_less_than_hs_1970', 'pct_hs_diploma_1970', 'pct_some_college_1_3_yrs_1970', 'pct_college_4_yrs_plus_1970', 'less_than_hs_1980', 'hs_diploma_1980', 'some_college_1_3_yrs_1980', 'college_4_yrs_plus_1980', 'pct_less_than_hs_1980', 'pct_hs_diploma_1980', 'pct_some_college_1_3_yrs_1980', 'pct_college_4_yrs_plus_1980', 'less_than_hs_1990', 'hs_diploma_1990', 'some_college_assoc_degree_1990', 'bachelors_plus_1990', 'pct_less_than_hs_1990', 'pct_hs_diploma_1990', 'pct_some_college_assoc_degree_1990', 'pct_bachelors_plus_1990', 'less_than_hs_2000', 'hs_diploma_2000', 'some_college_assoc_degree_2000', 'bachelors_plus_2000', 'pct_less_than_hs_2000', 'pct_hs_diploma_2000', 'pct_some_college_assoc_degree_2000', 'pct_bachelors_plus_2000', 'less_than_hs_2008_12', 'hs_diploma_2008_12', 'some_college_assoc_degree_2008_12', 'bachelors_plus_2008_12', 'pct_less_than_hs_2008_12', 'pct_hs_diploma_2008_12', 'pct_some_college_assoc_degree_2008_12', 'pct_bachelors_plus_2008_12', 'less_than_hs_2017_21', 'hs_diploma_2017_21', 'some_college_assoc_degree_2017_21', 'bachelors_plus_2017_21', 'pct_less_than_hs_2017_21', 'pct_hs_diploma_2017_21', 'pct_some_college_assoc_degree_2017_21', 'pct_bachelors_plus_2017_21']
+
+edu_filtered_columns = [col for col in edu.columns if ('2017' in col and 'pct' in col) or 'fips' in col.lower()]
+
+edu = edu[edu_filtered_columns]
+```
+
+# Unemployment
+
+Unemployment variables:
+
+-   Civilian labor force in county 2021 (civ_labor_force_2021)
+-   Employed in county 2021 (employed_2021)
+-   Unemployed in county 2021 (unemployed_2021)
+-   Unemployment rate in county 2021 (unemp_rate_2021)
+-   Gini coefficient in county 2019? (Gini.Coefficient)
+
+```{python}
+# Unemployment
+unemp = pd.read_excel("Unemployment.xlsx", skiprows=4)
+
+unemp.columns = ['fips_code', 'state', 'area_name', 'rucc_2013', 'uic_2013', 'metro_2013', 'civ_labor_force_2000', 'employed_2000', 'unemployed_2000', 'unemp_rate_2000', 'civ_labor_force_2001', 'employed_2001', 'unemployed_2001', 'unemp_rate_2001', 'civ_labor_force_2002', 'employed_2002', 'unemployed_2002', 'unemp_rate_2002', 'civ_labor_force_2003', 'employed_2003', 'unemployed_2003', 'unemp_rate_2003', 'civ_labor_force_2004', 'employed_2004', 'unemployed_2004', 'unemp_rate_2004', 'civ_labor_force_2005', 'employed_2005', 'unemployed_2005', 'unemp_rate_2005', 'civ_labor_force_2006', 'employed_2006', 'unemployed_2006', 'unemp_rate_2006', 'civ_labor_force_2007', 'employed_2007', 'unemployed_2007', 'unemp_rate_2007', 'civ_labor_force_2008', 'employed_2008', 'unemployed_2008', 'unemp_rate_2008', 'civ_labor_force_2009', 'employed_2009', 'unemployed_2009', 'unemp_rate_2009', 'civ_labor_force_2010', 'employed_2010', 'unemployed_2010', 'unemp_rate_2010', 'civ_labor_force_2011', 'employed_2011', 'unemployed_2011', 'unemp_rate_2011', 'civ_labor_force_2012', 'employed_2012', 'unemployed_2012', 'unemp_rate_2012', 'civ_labor_force_2013', 'employed_2013', 'unemployed_2013', 'unemp_rate_2013', 'civ_labor_force_2014', 'employed_2014', 'unemployed_2014', 'unemp_rate_2014', 'civ_labor_force_2015', 'employed_2015', 'unemployed_2015', 'unemp_rate_2015', 'civ_labor_force_2016', 'employed_2016', 'unemployed_2016', 'unemp_rate_2016', 'civ_labor_force_2017', 'employed_2017', 'unemployed_2017', 'unemp_rate_2017', 'civ_labor_force_2018', 'employed_2018', 'unemployed_2018', 'unemp_rate_2018', 'civ_labor_force_2019', 'employed_2019', 'unemployed_2019', 'unemp_rate_2019', 'civ_labor_force_2020', 'employed_2020', 'unemployed_2020', 'unemp_rate_2020', 'civ_labor_force_2021', 'employed_2021', 'unemployed_2021', 'unemp_rate_2021', 'med_hh_income_2020', 'med_hh_income_pct_state_total_2020']
+
+unemp_filtered_columns = [col for col in unemp.columns if '2021' in col or 'fips' in col.lower()]
+
+unemp = unemp[unemp_filtered_columns]
+
+unemp_cols = ['civ_labor_force_2021','employed_2021','unemployed_2021']
+
+unemp2 = pd.merge(unemp, pop.filter(['fips_code','pop_2021']), how = 'left',
+     left_on='fips_code', right_on='fips_code'
+)
+
+unemp[unemp_cols] = (unemp2[unemp_cols].div(unemp2['pop_2021'], axis=0))*100
+
+unemp = pd.merge(unemp, pol[['fips_code','Gini.Coefficient']], how = 'left',
+     left_on='fips_code', right_on='fips_code'
+)
+```
+
+# Crime
+
+Crime Variables
+
+-   Crime rate/100k people
+-   Murders/capita
+-   Rape/capita
+-   Robbery/capita
+-   Aggravated assault/capita
+-   Burglaries/capita
+-   Larcenies/capita
+-   Motor vehicle thefts/capita
+-   Arsons/capita
+
+```{python}
+# Crime
+crime = pd.read_csv("crime_clean.csv").drop('Unnamed: 0', axis=1)
+
+crime.columns = ['fips_code','crime_rate_per_100k','murder','rape','robbery','ag_assault','burglry','larceny','mv_theft','arson','population']
+
+crime_cols = ['murder','rape','robbery','ag_assault','burglry','larceny','mv_theft','arson']
+
+crime[crime_cols] = crime[crime_cols].div(crime['population'], axis=0)*100000
+
+crime = crime.drop('population', axis=1)
+a, b, crime_df = make_pca(crime, 48209, dim=2)
+a
+```
+
+```{python}
+b
+```
+
+# Race
+
+Race Variables
+
+-   White (%)
+-   Black (%)
+-   American Indian/Alaska Native (%)
+-   Asian (%)
+-   Native Hawaiian/Pacific Islander (%)
+-   Other race (%)
+-   Two or more races (%)
+-   Hispanic/Latino (%)
+
+```{python}
+# Race
+race = pd.read_csv('race.csv')
+
+race_cols = ['white', 'black','amerindian', 'asian', 'hawaiian_or_PI', 'other_race', 'two_or_more','hispanic']
+
+race[race_cols] = race.filter(race_cols, axis=1).div(race['total_population'],axis=0)*100
+
+race = race.drop(['county_name','total_population'], axis=1)
+a, b, race_df = make_pca(race, 48209, dim=2)
+a
+```
+
+```{python}
+b
+```
+
+# Politics
+
+Political Variables
+
+-   Republican Vote Share in 2016 Presidential Election (%)
+-   Democratic Vote Share in 2016 Presidential Election (%)
+-   Libertarian Vote Share in 2016 Presidential Election (%)
+
+```{python}
+# Politics
+politics = ['fips_code','rep16_frac',
+'dem16_frac',
+'libert16_frac']
+politics = pol[politics].fillna(0)
+```
+
+# Job Industry
+
+Job Industry Variables
+
+-   Management, professional, and related occupations (%)
+-   Service occupations (%)
+-   Sales and office occupations (%)
+-   Farming, fishing, and forestry occupations (%)
+-   Construction, extraction, maintenance, and repair occupations (%)
+-   Production, transportation, and material moving occupations (%)
+
+```{python}
+# Job Industry
+jobs = ['fips_code','Management.professional.and.related.occupations',
+'Service.occupations',
+'Sales.and.office.occupations',
+'Farming.fishing.and.forestry.occupations',
+'Construction.extraction.maintenance.and.repair.occupations',
+'Production.transportation.and.material.moving.occupations']
+
+jobs = pol[jobs].fillna(0)
+
+jobs.columns = ['fips_code', 'mgmt', 'service', 'sales', 'farming', 'construction', 'production']
+
+jobs2 = pd.merge(jobs, pop.filter(['fips_code','pop_2021'], axis=1), how = 'left', left_on='fips_code', right_on='fips_code')
+
+jobs_cols = ['mgmt', 'service', 'sales', 'farming', 'construction', 'production']
+
+jobs[jobs_cols] = ((jobs2[jobs_cols].div(jobs2['pop_2021'], axis=0))*100000).fillna(0)
+a, b, jobs_df= make_pca(jobs, 48209, dim=2)
+a
+```
+
+```{python}
+b
+```
+
+# Health
+
+Health Variables
+
+-   Poor physical health days (%)
+-   Poor mental health days (%)
+-   Low birthweight (%)
+-   Teen births (%)
+-   Adult smoking (%)
+-   Adult obesity (%)
+-   Diabetes (%)
+-   Sexually transmitted infections (%)
+
+```{python}
+# Health
+health = ['fips_code','Poor.physical.health.days', 'Poor.mental.health.days', 'Low.birthweight', 'Teen.births', 'Adult.smoking', 'Adult.obesity', 'Diabetes','Sexually.transmitted.infections']
+
+health = pol[health].fillna(0)
+
+health.columns = ['fips_code', 'poor_phys', 'poor_mental', 'low_birth_lbs', 'teen_births', 'smokers','obesity','diabetes', 'stds']
+
+health2 = pd.merge(health, pop.filter(['fips_code','pop_2021'], axis=1), how = 'left', left_on='fips_code', right_on='fips_code')
+
+health_cols = ['poor_phys', 'poor_mental', 'low_birth_lbs', 'teen_births', 'smokers','obesity','diabetes', 'stds']
+
+health[health_cols] = ((health[health_cols].div(jobs2['pop_2021'], axis=0))*100000).fillna(0)
+a, b, health_df = make_pca(health, 48209, dim=2)
+a
+```
+
+```{python}
+b
+```
+
+# Social Capital
+
+-   Percentage of births to unmarried mothers (%)
+-   Percentage of women who are married (%)
+-   Percentage of children in single-parent households (%)
+-   Non-religious non-profit organizations per 1,000 people
+-   Religious congregations per 1,000 people
+-   Informal civic engagement sub-index
+-   Presidential election voting rate 2012-2016
+-   Mail-back census response rate
+-   Confidence in institutions sub-index
+-   Membership organizations per 1,000 people
+-   Recreation and leisure establishments per 1,000 people
+-   Associations per 1,000 people (Penn State method)
+-   Non-religious and religious organizations per 1,000 people
+-   Religious adherents per 1,000 people
+-   Percentage of people who receive emotional support sometimes, rarely, or never
+-   Share of middle-class itemizers deducting charitable contributions (%)
+-   Ratio of 80th to 20th percentile household income\*
+
+```{python}
+# Social Capital
+soccap = pd.read_csv('soccap.csv')
+
+soccap.columns=['fips_code', 'pct_births_unmarried', 'pct_women_married', 'pct_children_single_parent', 'non_religious_non_profit_orgs_per_1k',
+'religious_congregations_per_1k', 'informal_civic_engagement_subidx', 'presidential_election_voting_rate_12_16',
+'mail_back_census_response_rate', 'confidence_in_institutions_subidx', 'membership_orgs_per_1k', 'recreation_leisure_est_per_1k',
+'associations_per_1k_penn_state_method', 'non_religious_and_religious_orgs_per_1k', 'religious_adherents_per_1k',
+'pct_emotional_support_sometimes_rarely_or_never', 'charitable_contributions_share_of_agi_middle_class_itemizers',
+'share_of_middle_class_itemizers_deducting_charitable_contributions', 'ratio_80th_to_20th_pct_hh_income']
+a, b, soccap_df = make_pca(soccap, 48209, dim=2)
+a
+```
+
+```{python}
+b
+```
+
+# PCA with all the data
+
+```{python}
+df_raw = pop.drop(['rucc_2013'], axis = 1).pipe(
+    pd.merge, pov, on='fips_code').pipe(
+    pd.merge, edu, on='fips_code').pipe(
+    pd.merge, unemp, on='fips_code').pipe(
+    pd.merge, crime, on='fips_code').pipe(
+    pd.merge, race, on='fips_code').pipe(
+    pd.merge, politics, on='fips_code').pipe(
+    pd.merge, jobs, on='fips_code').pipe(
+    pd.merge, health, on='fips_code').pipe(
+    pd.merge, soccap, on='fips_code')
+
+for col in df_raw.drop(['fips_code','state','area_name'],axis=1).columns:
+    df_raw[col] = df_raw[col].fillna(df_raw[col].mean())
+
+highlighted_area = 48209
+
+# Normalize data
+scaler = StandardScaler()
+df = scaler.fit_transform(df_raw.drop(['fips_code', 'state', 'area_name'], axis=1))
+df_name = df_raw[['fips_code', 'state', 'area_name']].reset_index(drop=True)
+
+# PCA analysis
+pca = PCA()
+pca.fit(df)
+pcs = pca.transform(df)
+pcs_df = pd.DataFrame(pcs)
+df_final = pd.concat([df_name, pcs_df], axis=1)
+
+fig2 = pca_variance(pca)
+
+# Marks
+marker_colors = df_final['fips_code'].apply(lambda x: 'red' if x == highlighted_area else 'blue')
+marker_sizes = df_final['fips_code'].apply(lambda x: 15 if x == highlighted_area else 5)
+
+
+# Chart PC distance 2D
+fig = px.scatter(df_final,
+    x=df_final.columns[len(df_name.columns)],
+    y=df_final.columns[len(df_name.columns) + 1],
+    hover_data=['fips_code','state','area_name'],
+    custom_data=['fips_code'],
+    color=marker_colors,
+    size=marker_sizes,
+    color_discrete_map={'red': 'red', 'blue': 'blue'})
+
+fig.update_traces(marker=dict(symbol='circle', line=dict(width=1))
+)
+
+fig.show()
+```
+
+```{python}
+fig = px.scatter_3d(df_final,
+    x=df_final.columns[len(df_name.columns)],
+    y=df_final.columns[len(df_name.columns) + 1],
+    z=df_final.columns[len(df_name.columns) + 2],
+    hover_data=['fips_code','state','area_name'],
+    custom_data=['fips_code'],
+    color=marker_colors,
+    size=marker_sizes,
+    color_discrete_map={'red': 'red', 'blue': 'blue'})
+
+fig.update_traces(marker=dict(symbol='circle', line=dict(width=1)))
+
+fig.show()
+```
+
+```{python}
+# Explained variance
+explained_variance_ratio = pca.explained_variance_ratio_
+num_components = len(explained_variance_ratio)
+components = list(range(1, num_components + 1))
+
+fig = go.Figure(data=[go.Bar(x=components, y=explained_variance_ratio)])
+
+fig.update_layout(
+    title="Proportion of Variance Explained by Principal Components",
+    xaxis_title="Principal Components",
+    yaxis_title="Explained Variance Ratio",
+    yaxis=dict(tickformat=".2%"),
+)
+
+fig.show()
+```
+
+```{python}
+loadings = pd.DataFrame(pca.components_.T, columns=[f'PC{i}' for i in range(1, num_components+1)], index=df_raw.columns[3:]) 
+
+PC1 = loadings.reindex(loadings['PC1'].abs().sort_values(ascending=False).index)['PC1'].head()
+
+PC2 = loadings.reindex(loadings['PC2'].abs().sort_values(ascending=False).index)['PC2'].head()
+
+PC3 = loadings.reindex(loadings['PC3'].abs().sort_values(ascending=False).index)['PC3'].head()
+
+PC4 = loadings.reindex(loadings['PC4'].abs().sort_values(ascending=False).index)['PC4'].head()
+
+PC5 = loadings.reindex(loadings['PC5'].abs().sort_values(ascending=False).index)['PC5'].head()
+
+PC6 = loadings.reindex(loadings['PC6'].abs().sort_values(ascending=False).index)['PC6'].head()
+
+```
+
+## PC1
+
+The first principal component seems to be some measure of traditional metrics of the society including how White the population is, both religious and nonreligious organizations, low criminality, and percent married.
+
+```{python}
+PC1
+```
+
+## PC2
+
+The second principal component seems to be some measure of how economically disadvantaged the population is, with measures like poverty rate highly correlated and median household income negatively correlated. Interestingly, religious congregations and teen births per 1k is also highly correlated with this principal component. It seems like this principal component has some aspects of traditionality of the society, but the negative aspects of it.
+
+```{python}
+PC2
+```
+
+## PC3
+
+The third principal component seems to be some measure of how busy the area is. It is highly correlated with the percent of the population that is employed in the management, production, and construction industry.
+
+```{python}
+PC3
+```
+
+## PC4
+
+The fourth principal component seems to be some negative measure of civic engagement and social capital.
+
+```{python}
+PC4
+```
+
+## PC5
+
+Not exactly sure what this principal component is measuring.
+
+```{python}
+PC5
+```
+
+## PC6
+
+Probably measures a variable related to something with race and crime
+
+```{python}
+PC6
+```
