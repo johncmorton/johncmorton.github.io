@@ -75,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -146,30 +146,82 @@ ul.task-list li input[type="checkbox"] {
      <main class="content page-columns page-full column-body" id="quarto-document-content">
 <!-- HERO SECTION -->
 <div class="column-screen">
-<p><img src="images/bg_hero.png" class="img-fluid" style="transform: translateY(-5em); height: 10% !important;"></p>
+<p><img src="images/bg_hero2.png" class="img-fluid" style="transform: translateY(-5em);                                             height: 10% !important;                                            display: none !important;"></p>
 </div>
-<!-- ME SECTION -->
-<div class="columns">
-<!-- COL1 --><div class="column" style="width:70%;">
-<section id="meet-aj" class="level1">
-<h1>Meet Aj!</h1>
-<section id="data-scientist" class="level3">
-<h3 data-anchor-id="data-scientist">Data Scientist</h3>
-<p>I’m a data scientist with a passion for Python, R, data visualization, and statistics/machine learning.</p>
-</section>
-</section>
-</div><!-- COL 2 (SPACE) --><div class="column" style="width:10%;">
-</div><!-- COL 3 --><div class="column" style="width:20%;">
-<p><br> <img src="images/portrait.png" class="img-fluid" style="width:130.0%"></p>
+<div class="column-screen">
+<div style="background-image: url('images/bg_hero2.png'); 
+            background-size: cover; 
+            height: 100vh; 
+            width: 100%; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center;
+            padding: 10px;
+            transform: translateY(-5em)">
+    <!-- Content over the hero image -->
+    <h1 style="color: white; text-align: center;">Meet Alan!</h1>
+    <!-- Portrait Image -->
+    <img src="images/portrait.png" alt="Portrait of Aj" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);">
+    <h2 style="color: white; text-align: center;">Data Scientist</h2>
+    <p style="color: white; text-align: center; max-width: 600px;">
+      I'm a data scientist committed to driving impactful results through data, whether in the academic, political, or historical domain. I have a passion for Python, R, data visualization, and statistics/machine learning. 
+    </p>
+    <a href="resume.pdf" target="_blank" style="background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);">View My Resume</a>
 </div>
 </div>
+<section id="some-of-alans-projects" class="level1">
+<h1>Some of Alan’s Projects</h1>
 <p>On this portfolio, I share and teach what I learn. To get started, you can check out my most popular content below. You can find me on GitHub, Instagram, and LinkedIn. Feel free to reach out to me via mail and subscribe to my email newsletter.</p>
 <p><br><br></p>
 
 
+</section>
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="politics,visualization,statistics,python" data-listing-date-sort="1680242400000" data-listing-file-modified-sort="1697827677971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2328">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1698763471738" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+<a href="./posts/hack1/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/hack1/pandaverse.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+1st Place Hackathon (Winter 2023)
+</h5>
+<div class="card-text listing-description">
+The Wilford Woodruff Papers is a collection of documents from the life of Wilford Woodruff, the fourth president of the Mormon Church. The collection contains over 100,000…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1698763146717" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
+<a href="./posts/hack2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/hack2/pandaverse.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+1st Place Hackathon (Fall 2023)
+</h5>
+<div class="card-text listing-description">
+Grassroots campaigns, donation drives, and voter canvassing always start with a voter list. Obtaining these lists is often difficult, and large corporations often monopolize…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="politics,visualization,statistics,python" data-listing-file-modified-sort="1698760860211" data-listing-reading-time-sort="12" data-listing-word-count-sort="2328">
 <a href="./posts/pca/pca.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -182,44 +234,15 @@ A county like mine
 <div class="card-text listing-description">
 Principal Component Analysis (PCA) is a statistical technique used to simplify complex data by reducing the number of variables while retaining most of the original…
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-Aj Averett
-</div>
-<div class="listing-date">
-Mar 31, 2023
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="religion,r,visualization" data-listing-date-sort="1673679600000" data-listing-file-modified-sort="1697828639535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2478">
-<a href="./posts/usa_christian/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/usa_christian/chreaster.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-State of American Christianity
-</h5>
-<div class="card-text listing-description">
-<strong>General Social Survey</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Aj Averett
-</div>
-<div class="listing-date">
-Jan 14, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="notation,latex" data-listing-date-sort="1672729200000" data-listing-file-modified-sort="1697828219695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
+<div class="g-col-1" data-index="3" data-categories="notation,latex" data-listing-file-modified-sort="1698760871215" data-listing-reading-time-sort="3" data-listing-word-count-sort="588">
 <a href="./posts/power_triangle/power_triangle.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -232,12 +255,47 @@ The Triangle of Power
 <div class="card-text listing-description">
 A post on Math Overflow about the relationship between powers, roots, and logs sparked the birth of a notation to harmonize these seemingly unrelated concepts. Grant…
 </div>
-<div class="card-attribution card-text-small justify">
+<div class="card-attribution card-text-small start">
 <div class="listing-author">
-Aj Averett
 </div>
-<div class="listing-date">
-Jan 3, 2023
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="python,r" data-listing-file-modified-sort="1698764125120" data-listing-reading-time-sort="1" data-listing-word-count-sort="68">
+<a href="./posts/tutor/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/tutor/pandaverse2.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<div class="card-text listing-description">
+The Data Science Rosetta Stone is named after the Rosetta Stone, a stele inscribed with the same text in three different languages: Ancient Egyptian hieroglyphs, Demotic…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1698764161822" data-listing-reading-time-sort="13" data-listing-word-count-sort="2473">
+<a href="./posts/usa_christian/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/usa_christian/chreaster.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+State of American Christianity
+</h5>
+<div class="card-text listing-description">
+The General Social Survey (GSS) is a nationally representative survey of American adults that has been conducted since 1972. The GSS is conducted by the National Opinion…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 </div>
 </div>
 </div>
@@ -261,6 +319,10 @@ No matching items
   <a href="/resume.pdf" class="about-link" rel="" target="">
     <i class="bi bi-file-text"></i>
      <span class="about-link-text">Resume</span>
+  </a>
+  <a href="https://www.instagram.com/rooftop_asian" class="about-link" rel="" target="">
+    <i class="bi bi-instagram"></i>
+     <span class="about-link-text">Instagram</span>
   </a>
   <a href="mailto:ajaverett0@Gmail.com" class="about-link" rel="" target="">
     <i class="bi bi-envelope"></i>

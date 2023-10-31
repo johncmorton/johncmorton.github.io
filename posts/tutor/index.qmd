@@ -1,0 +1,21 @@
+---
+categories: [python, r]
+image: "pandaverse2.png"
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+---
+
+The Data Science Rosetta Stone is named after the [Rosetta Stone](https://en.wikipedia.org/wiki/Rosetta_Stone), a stele inscribed with the same text in three different languages: Ancient Egyptian hieroglyphs, Demotic script, and Ancient Greek. Just like the original Rosetta Stone was used to decipher Egyptian hieroglyphs, the Data Science Rosetta Stone is meant to help you decipher the code of different data science programming languages.
+
+::: {.column-screen}
+
+```{=html}
+<iframe
+  src="https://rosetta.streamlit.app/?embed=true"
+  height="6000"
+  style="width:100%;border:none;"
+></iframe>
+```
+:::

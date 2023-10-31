@@ -1,0 +1,42 @@
+---
+title: "1st Place Hackathon (Winter 2023)"
+image: "pandaverse.png"
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+---
+
+The [Wilford Woodruff Papers](https://wilfordwoodruffpapers.org/) is a collection of documents from the life of Wilford Woodruff, the fourth president of the Mormon Church. The collection contains over 100,000 documents, including journals, letters, and other documents.
+
+**The Challenge and Solution**
+
+The challenge was to create a tool that would match the entire corpus of Mormon scripture to the Wilford Woodruff Papers. 
+
+My team was able to deliver an interactive web application that cross-referenced religious texts with 19th century published journal entries by using a Bag-of-Words model to vectorize n-grams to find textual matches sorted by confidence
+
+Packages Used:
+
+[Streamlit](https://streamlit.io/), [Pandas](https://pandas.pydata.org/), [NLTK](https://www.nltk.org/), [Scikit-Learn](https://scikit-learn.org/stable/), [Numpy](https://numpy.org/), [Plotly](https://plotly.com/)... plus a few others
+
+**The Result**
+
+::: {.column-screen}
+
+```{=html}
+
+<div style="text-align: center;">
+    <a href="https://www.idahostatejournal.com/community/byu-idaho-students-draw-inspiration-from-the-life-of-a-prophet/article_65858fd6-f59c-11ed-85fb-4f37e9813ae6.html" style="display: inline-block;">
+        <img src="hacka.png" alt="Image Description" style="margin: 0 auto; box-shadow: 3px 3px 10px rgba(0,0,0,0.2);">
+    </a>
+</div>
+<br><br>
+<p style="padding:10px">Play with the app below!</p>
+<br>
+<iframe
+  src="https://woodruffquery.streamlit.app/?embed=true"
+  height="1500"
+  style="width:100%;border:none;"
+></iframe>
+```
+:::

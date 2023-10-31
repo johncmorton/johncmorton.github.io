@@ -1,7 +1,5 @@
 ---
 title: "A county like mine"
-author: "Aj Averett"
-date: "2023-3-31"
 categories: ['politics','visualization','statistics','python']
 image: "pca.png"
 jupyter: python3

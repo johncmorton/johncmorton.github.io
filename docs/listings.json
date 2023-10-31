@@ -2,9 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/hack1/index.html",
+      "/posts/hack2/index.html",
       "/posts/pca/pca.html",
-      "/posts/usa_christian/index.html",
-      "/posts/power_triangle/power_triangle.html"
+      "/posts/power_triangle/power_triangle.html",
+      "/posts/tutor/index.html",
+      "/posts/usa_christian/index.html"
     ]
   }
 ]

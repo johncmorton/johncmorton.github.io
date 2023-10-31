@@ -1,0 +1,33 @@
+---
+title: "1st Place Hackathon (Fall 2023)"
+image: "pandaverse.png"
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+---
+
+Grassroots campaigns, donation drives, and voter canvassing always start with a voter list. Obtaining these lists is often difficult, and large corporations often monopolize the voter records and sell them to other organizations. We’ve organized the Ohio voting history for 8 million voters across 20 years and combined geographical information with census data, to help political groups find potential voters.
+
+**The Challenge and Solution**
+
+The challenge was to create an interface that would allow any grassroots campaign the tools to best allocate their funds to route their outreach program in Ohio My team was able to deliver a website that gives political information inferred from the Ohio voterfile. We used a variety of tools to accomplish this, including:
+
+Packages Used:
+
+[Quarto](https://quarto.org/), [Pandas](https://pandas.pydata.org/), [Scikit-Learn](https://scikit-learn.org/stable/), [Numpy](https://numpy.org/), [Plotly](https://plotly.com/), [R Shiny](https://shiny.rstudio.com/), [Google Cloud](https://cloud.google.com/)... plus a few others
+
+**The Result**
+
+{{< video https://www.youtube.com/watch?v=dxMG5BrQbPE&t=2s >}}
+
+Below is the website (click the picture)
+
+```{=html}
+<div style="text-align: center;">
+    <a href="ohioelect.us" style="display: inline-block;">
+        <img src="hacka.png" alt="Image Description" style="margin: 0 auto; box-shadow: 3px 3px 10px rgba(0,0,0,0.2); max-width: 100%; width: auto; height: auto;">
+    </a>
+</div>
+
+```

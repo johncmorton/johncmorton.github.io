@@ -1,8 +1,5 @@
 ---
 title: "State of American Christianity"
-author: "Aj Averett"
-date: "2023-1-14"
-categories: [religion, r, visualization]
 image: "chreaster.png"
 format:
   html:
@@ -17,10 +14,6 @@ library(tidyverse)
 library(patchwork)
 library(plotly)
 ```
-
-# State of American Christianity
-
-**General Social Survey**
 
 The General Social Survey (GSS) is a nationally representative survey of American adults that has been conducted since 1972. The GSS is conducted by the National Opinion Research Center (NORC) at the University of Chicago, and it is widely considered to be one of the most important sources of data on trends in American attitudes, beliefs, and behaviors.
 
