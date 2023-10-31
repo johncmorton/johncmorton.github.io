@@ -4,6 +4,9 @@ backgroundcolor: black
 
 
 ```{=html}
+
+<h1 style="text-align: center; color: white; font-size: 3em; margin-top: 2em; margin-bottom: 2em;">Alan's Journey</h1>
+
 <!-- Korea -->
 <section style="background-size: cover; 
                 color: #fff; 
@@ -82,9 +85,11 @@ backgroundcolor: black
         </h2>
 
         <p>
-            Near the end of elementary school, Alan and his family moved to Austin, Texas. 
+            Near the end of elementary school, Alan and his family moved to Austin, Texas. This is where he grew up and spent most of his life. He eventually attended Lake Travis Middle and High School.
 
         </p>
+
+        <img class="storyimg"  src="images/story/grad.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
 
     </div>
 
@@ -94,7 +99,11 @@ backgroundcolor: black
     <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
 
         <p>
-            Alan attended Lake Travis High School and graduated in 2018. He was involved in the marching band, varsity choir, DECA International, and theatre.
+            At Lake Travis High School, he was involved in the marching band, varsity choir, DECA International, and theatre.
+
+            During his time in the marching band, he played in the front ensemble as a marimba and vibraphone player. He also played the piano and sang in the varsity choir as a tenor and bass.
+
+            In DECA, he competed in business competitions and won awards at the regional, state and international level.
 
         </p>
 
@@ -109,7 +118,22 @@ backgroundcolor: black
     <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
 
         <p>
-            Once he was old enough, he started working. During his time in Texas, he worked at a bakery, a martial arts studio, and even as a tire repair technician. He also earned his Eagle Scout award.
+            Alan was always determined and eager to work from a young age. In Texas, he took on a variety of jobs- working at a bakery, instructing at a martial arts studio, and fixing tires as a tire repair technician. 
+
+        </p>
+
+        <img class="storyimg"  src="images/story/tkd.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+
+
+    </div>
+
+    <br><br>
+
+    <!-- third slide -->
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
+
+        <p>
+            Outside of work and school, Alan was involved in his church as a leader for his local youth group. He pursued martial arts- getting to the rank of red belt at an Olympic certified school before leaving to college. He was even a Scribe in his local Boy Scout troop and earned the rank of Eagle Scout.
 
         </p>
 
@@ -141,6 +165,8 @@ backgroundcolor: black
 
         <p>
             After Alan graduated, he served as a Technology Consultant in the Maryland Baltimore Mormon Mission.
+
+            During this time, he learned how to effectively communicate with others, work in a team, and solve problems. He also learned how to speak Spanish fluently.
             
         </p>
 
@@ -171,7 +197,11 @@ backgroundcolor: black
         </h2>
 
         <p>
-            Alan decided to study data science in Rexburg, Idaho. He became a tutor, TA and even won a few hackathons.
+            When Alan entered in college, he ultimately decided to study data science since it combined his interests in statistics, and computer programming. 
+
+            At Brigham Young University- Idaho, he was involved in the Data Science Society where he served as President. He was a TA for five courses in the Mathematics Department and ran the data science lab where he trained tutors and helped students with their data science projects.
+            
+            He even won a few hackathons!
             
         </p>
 
@@ -201,7 +231,7 @@ backgroundcolor: black
         </h2>
 
         <p>
-            WPA Intelligence in Washington DC hired Alan as a Data Science Intern. He worked on the 2022 midterm elections, analyzing voter data trends, applying machine learning models.
+            A pollster in Washington DC hired Alan as a Data Science Intern. He worked right on capitol hill to help garner information about the 2022 midterm elections. He analyzed voter data trends, applying them to machine learning models.
             
         </p>
 
