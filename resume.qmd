@@ -1,18 +1,19 @@
 
-::: {.column-screen}
+
 
 ```{=html}
 
 
 <div style="text-align: center; margin-top: 20px;">
-    <a href="resume.pdf" target="_blank" style="background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);">View as a PDF</a>
+    <a href="resume.pdf" target="_blank" style="background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);">View as a PDF</a>
 </div>
+<br>
+<br>
 
-
-<div style="font-family: Arial, sans-serif; color: #333; padding: 20px; background-color: #f7f7f7; line-height: 1.6;">
+<div style="font-family: Arial, sans-serif; color: #333; background-color: #f7f7f7; line-height: 1.6;">
 
 <br>
-    <div style="background-color: white; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <div style="background-color: white; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); padding:1rem;">
 
     <br><br>
 
@@ -22,7 +23,6 @@
             <p style="margin-top: 5px; font-size: 0.9em;">
                 832.856.4666 | <a href="mailto:ajaverett0@gmail.com" style="color: #3498db; text-decoration: none;">ajaverett0@gmail.com</a> |
                 <a href="https://linkedin.com/in/ajaverett" style="color: #3498db; text-decoration: none;">linkedin.com/in/ajaverett</a> |
-                <a href="https://ajaverett.github.io" style="color: #3498db; text-decoration: none;">ajaverett.github.io</a>
             </p>
         </div>
 
@@ -109,4 +109,3 @@
 
 
 ```
-:::
