@@ -1,5 +1,5 @@
 ---
-backgroundcolor: black
+page-layout: full
 ---
 
 

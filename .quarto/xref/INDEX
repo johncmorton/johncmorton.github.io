@@ -28,5 +28,8 @@
   },
   "posts/hack2/index.qmd": {
     "index.html": "e106a3a1"
+  },
+  "resume.qmd": {
+    "resume.html": "050bfc10"
   }
 }

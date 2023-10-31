@@ -1,0 +1,12 @@
+
+
+::: {.column-screen}
+
+```{=html}
+<iframe
+  src="https://ajaverett.github.io/resume.pdf"
+  height="1200"
+  style="width:100%;border:none;"
+></iframe>
+```
+:::
