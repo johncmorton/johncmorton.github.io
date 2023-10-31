@@ -31,7 +31,10 @@ listing:
 
 <!-- HERO SECTION -->
 ::: {.column-screen}
-![](images/bg_hero2.png){style="transform: translateY(-5em); 
+![](images/bg_hero.webp){style="transform: translateY(-5em); 
+                                           height: 10% !important;
+                                           display: none !important;"}
+![](images/portrait.webp){style="transform: translateY(-5em); 
                                            height: 10% !important;
                                            display: none !important;"}
 :::
@@ -39,7 +42,7 @@ listing:
 ::: {.column-screen}
 
 ```{=html}
-<div style="background-image: url('images/bg_hero2.png'); 
+<div style="background-image: url('images/bg_hero.webp'); 
             background-size: cover; 
             height: 100vh; 
             width: 100%; 
@@ -54,7 +57,7 @@ listing:
     <h1 style="color: white; text-align: center;">Meet Alan!</h1>
     
     <!-- Portrait Image -->
-    <img src="images/portrait.png" alt="Portrait of Aj" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);">
+    <img src="images/portrait.webp" alt="Portrait of Aj" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);">
     
     <h2 style="color: white; text-align: center;">Data Scientist</h2>
     <p style="color: white; text-align: center; max-width: 600px;">

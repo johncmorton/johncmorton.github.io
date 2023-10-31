@@ -1,5 +1,5 @@
 ---
-categories: [python, r]
+title-block-banner: true
 image: "pandaverse2.png"
 format:
   html:
@@ -7,7 +7,11 @@ format:
     code-summary: "Show the code"
 ---
 
-The Data Science Rosetta Stone is named after the [Rosetta Stone](https://en.wikipedia.org/wiki/Rosetta_Stone), a stele inscribed with the same text in three different languages: Ancient Egyptian hieroglyphs, Demotic script, and Ancient Greek. Just like the original Rosetta Stone was used to decipher Egyptian hieroglyphs, the Data Science Rosetta Stone is meant to help you decipher the code of different data science programming languages.
+```{=html}
+<p style = "display:none">
+The Data Science Rosetta Stone is named after the, a stele inscribed with the same text in three different languages- Ancient Egyptian hieroglyphs, Demotic script, and Ancient Greek. Just like the original Rosetta Stone was used to decipher Egyptian hieroglyphs, the Data Science Rosetta Stone is meant to help you decipher the code of different data science programming languages.
+<p>
+```
 
 ::: {.column-screen}
 

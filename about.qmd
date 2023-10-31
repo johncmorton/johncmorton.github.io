@@ -1,53 +1,220 @@
 ---
-title: ""
+backgroundcolor: black
 ---
 
-# Aj's Journey
 
-(this page is a work in progress)
+```{=html}
+<!-- Korea -->
+<section style="background-size: cover; 
+                color: #fff; 
+                padding: 100px 0;
+                background: url('https://raw.githubusercontent.com/ajaverett/data/main/bg/koreabg.webp') no-repeat center center fixed; ">
 
-### 2000 June
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
 
-Aj was born to the name Min Soeb in Daejon, South Korea. For the first year of his life, he was raised in the Korean foster care system. 
+        <h2 style="font-size: 1.5em; 
+                   margin-bottom: 20px;
+                   color:white">
 
-<img src="images/story/adoption.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+        Daejon, Korea
+
+        </h2>
+
+        <p>
+            Alan was born to the name "Min Soeb" in Daejon, South Korea. For the first year of his life, he was raised in the Korean foster care system. He was one of the last kids at the adoption center to get a home!
+            
+        </p>
+
+        <img class="storyimg"  src="images/story/adoption.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+
+    </div>
+
+</section>
+
+<br><br><br>
+
+<!-- Arizona -->
+<section style="background-size: cover; 
+                color: #fff; 
+                padding: 100px 0;
+                background: url('https://raw.githubusercontent.com/ajaverett/data/main/bg/arizonabg.webp') no-repeat center center fixed; ">
+
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
+
+        <h2 style="font-size: 1.5em; 
+                   margin-bottom: 20px;
+                   color:white">
+
+        Phoenix, Arizona
+
+        </h2>
+
+        <p>
+            The Averett's adopted Alan and brought him to Phoenix Arizona in the United States. He became the youngest of 5 children. His mother's family was from California and Mexico and his father's family from Wyoming. Throughout his life, his mother worked as an educator and his father worked in sales with companies across India and Asia.
+            
+        </p>
+
+        <img class="storyimg"  src="images/story/family.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
 
 
-### 2002 Feb
+    </div>
 
-The Averett's adopted Aj and brought him to Phoenix Arizona in the United States. He became the youngest of 5 children. His mother's family was from Mexico and his father's family from Wyoming. Througout his life, his mother worked as an educator and his father worked in sales with companies across India and Asia
+</section>
 
-<img src="images/story/family.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
-
-
-### 2008 Dec
-
-Aj and his family moved to Austin, Texas. Once he was old enough, he started working. During his time in Texas, he worked at a bakery, a martial arts studio, and even as a tire repair technician. He also earned his Eagle Scout award.
-
-<img src="images/story/eagle.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
-
-### 2014 June 
-
-Aj attended Lake Travis High School and graduated in 2018. He was involved in the marching band, varsity choir, DECA International, and theatre.
-
-<img src="images/story/deca.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
-
-### 2018 Aug
-
-After Aj graduated, he served as a Technology Consultant in the Maryland Baltimore Mormon Mission.
-
-<img src="images/story/mission.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+<br><br><br>
 
 
-### 2020 April 
+<!-- Texas -->
+<section style="background-size: cover; 
+                color: #fff; 
+                padding: 100px 0;
+                background: url('https://raw.githubusercontent.com/ajaverett/data/main/bg/texasbg.webp') no-repeat center center fixed; ">
 
-Aj decided to study data science in Rexburg, Idaho. He became a tutor, TA and even won a few hackathons. 
+    <!-- first slide -->
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
 
-<img src="images/story/hackathon.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+        <h2 style="font-size: 1.5em; 
+                   margin-bottom: 20px;
+                   color:white">
 
-### 2022 July
+        Austin, Texas
 
-WPA Intelligence in Washington DC hired Aj as a Data Science Intern. He worked on the 2022 midterm elections, analyzing voter data trends, applying machine learning models.
+        </h2>
+
+        <p>
+            Near the end of elementary school, Alan and his family moved to Austin, Texas. 
+
+        </p>
+
+    </div>
+
+    <br><br>
+
+    <!-- second slide -->
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
+
+        <p>
+            Alan attended Lake Travis High School and graduated in 2018. He was involved in the marching band, varsity choir, DECA International, and theatre.
+
+        </p>
+
+        <img class="storyimg"  src="images/story/deca.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
 
 
-<img src="images/story/wpai.png" style="width: 10rem; border-radius: 50%; display: block; margin-left: auto; margin-right: auto;">
+    </div>
+
+    <br><br>
+
+    <!-- third slide -->
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
+
+        <p>
+            Once he was old enough, he started working. During his time in Texas, he worked at a bakery, a martial arts studio, and even as a tire repair technician. He also earned his Eagle Scout award.
+
+        </p>
+
+        <img class="storyimg"  src="images/story/eagle.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+
+
+    </div>
+
+</section>
+
+<br><br><br>
+
+
+<!-- Maryland -->
+<section style="background-size: cover; 
+                color: #fff; 
+                padding: 100px 0;
+                background: url('https://raw.githubusercontent.com/ajaverett/data/main/bg/dcbg.webp') no-repeat center center fixed; ">
+
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
+
+        <h2 style="font-size: 1.5em; 
+                   margin-bottom: 20px;
+                   color:white">
+
+        Baltimore, Maryland
+
+        </h2>
+
+        <p>
+            After Alan graduated, he served as a Technology Consultant in the Maryland Baltimore Mormon Mission.
+            
+        </p>
+
+        <img class="storyimg"  src="images/story/mission.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+
+
+    </div>
+
+</section>
+
+<br><br><br>
+
+
+<!-- Rexburg -->
+<section style="background-size: cover; 
+                color: #fff; 
+                padding: 100px 0;
+                background: url('https://raw.githubusercontent.com/ajaverett/data/main/bg/rexburgbg.webp') no-repeat center center fixed; ">
+
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
+
+        <h2 style="font-size: 1.5em; 
+                   margin-bottom: 20px;
+                   color:white">
+
+        Rexburg, Idaho
+
+        </h2>
+
+        <p>
+            Alan decided to study data science in Rexburg, Idaho. He became a tutor, TA and even won a few hackathons.
+            
+        </p>
+
+        <img class="storyimg"  src="images/story/hackathon.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+
+
+    </div>
+
+</section>
+
+<br><br><br>
+
+<!-- Washington DC -->
+<section style="background-size: cover; 
+                color: #fff; 
+                padding: 100px 0;
+                background: url('https://raw.githubusercontent.com/ajaverett/data/main/bg/dcbg.webp') no-repeat center center fixed; ">
+
+    <div style="max-width: 95%; margin: 0 auto; padding: 30px; background-color: rgba(0,0,0,0.8); border-radius: 8px;">
+
+        <h2 style="font-size: 1.5em; 
+                   margin-bottom: 20px;
+                   color:white">
+
+        Washington, DC
+
+        </h2>
+
+        <p>
+            WPA Intelligence in Washington DC hired Alan as a Data Science Intern. He worked on the 2022 midterm elections, analyzing voter data trends, applying machine learning models.
+            
+        </p>
+
+        <img class="storyimg"  src="images/story/wpai.png" style="width: 80%; border-radius: 50%; display: block; margin-left: auto; margin-right: auto; transition: transform 0.3s; cursor: pointer; max-width: 15rem;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+
+
+    </div>
+
+</section>
+
+<br><br><br>
+
+
+
+```
+
