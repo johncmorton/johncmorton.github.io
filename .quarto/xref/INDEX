@@ -31,5 +31,9 @@
   },
   "resume.qmd": {
     "resume.html": "050bfc10"
+  },
+  "raw_resume.qmd": {
+    "raw_resume.tex": "6d51f5ec",
+    "raw_resume.html": "7b3ced83"
   }
 }
