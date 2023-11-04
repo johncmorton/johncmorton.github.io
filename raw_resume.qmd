@@ -158,7 +158,7 @@ format:
   \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Data Scientist}\end
-    {flushleft}\begin{flushright}May 2023 - Present\end
+    {flushleft}\begin{flushright}May 2023 - Dec 2023\end
     {flushright}
   \end{multicols}
 \end{large}
@@ -169,13 +169,13 @@ format:
 \vspace{7pt}
 \begin{large}
   \begin{multicols}{2}
-    \begin{flushleft}{\bf \href{https://github.com/wilfordwoodruff}{Ohio Voter Data Consulting}}\end{flushleft}
+    \begin{flushleft}{\bf \href{http://ohioelect.us/}{Ohio Voter Data Consulting}}\end{flushleft}
     \begin{flushright}Rexburg, ID\end{flushright}
   \end{multicols}
   \vspace{-0.17cm}
   \begin{multicols}{2}
     \begin{flushleft}\textit{Founder, Data Scientist}\end
-    {flushleft}\begin{flushright}Sep 2023 - Dec 2023\end
+    {flushleft}\begin{flushright}Sep 2023 - Present\end
     {flushright}
   \end{multicols}
 \end{large}
