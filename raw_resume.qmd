@@ -69,9 +69,9 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models that predicted ideological disposition and turnout using R's tidyverse
+* Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models that predicted ideological disposition and turnout using \textbf{\textit{R's tidyverse}}
 * Significantly decreased polling production time by automating sampling methodologies using R's statistical libraries
-* Increased accuracy and AUC for all future machine learning models by using GIS data to categorize over 100 million records of voter data into 12 granularities of population density using R's sf and other geospatial libraries
+* Increased accuracy and AUC for all future machine learning models by using \textbf{\textit{GIS}} data to categorize over 100 million records of voter data into 12 granularities of population density using \textbf{\textit{R's sf}} and other geospatial libraries
 
 \vspace{7pt}
 
@@ -89,9 +89,7 @@ format:
 \end{large}
 \vspace{-0.16cm}
 
-* Eliminated 50+ fraudulent contractors in the African Oral History Project by developing in-house tuned anomaly detection
-* Scrutinized 200k+ genealogical submissions using comparitive analysis from several machine learning algorithms
-
+* Eliminated 50+ fraudulent contractors in the African History Project by \textbf{\textit{developing and automating}} in-house tuned anomaly detection methods in \textbf{\textit{Python}} over 200k+ genealogical submissions; regularly presented abstracts to management
 
 
 
@@ -110,8 +108,8 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Led and coordinated data science society activities and meetings; mentored and supported project teams including weekly bootcamps to teach data analysis, statistics, and machine learning over 6 teams of ~6-12 people each
-* Managed, scheduled, and trained all tutors for all data science courses, school-wide for Data Science Lab (R and Python)
+* Led and coordinated data science society activities and meetings; mentored and supported project teams including weekly bootcamps to teach \textbf{\textit{data analysis/statistics and ML hyper parameter tuning}}, over 6 teams of ~ 6-12 people each
+* Managed, scheduled, and trained all tutors for all data science courses, school-wide for Data Science Lab \textbf{\textit{(R and Python)}}
 
 \vspace{6pt}
 
@@ -123,11 +121,10 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* **DS Programming**: Tutored data analysis, statistics, and basic ML in Python (Pandas, NumPy, Sci-kit Learn)
-* **Data Wrangling and viz**: Tutored complex data analysis and visualization with R tidyverse (dplyr, ggplot2 etc.)
-* **Big Data Programming**: Tutored big data analysis and visualization in DataBricks (Polars, PySpark, Plotly, AutoML, etc.)
-* **Business Statistics**: Tutored basic statistical analyses, theories, and methods with Excel
-* **Linear Algebra**: Tutored both non-computational and computational linear algebra with Python (NumPy, SymPy)
+* **DS Programming**: Tutored data analysis, statistics, and basic ML in \textbf{\textit{Python (Pandas, NumPy, Sci-kit Learn)}}
+* **Data Wrangling and viz**: Tutored complex data analysis and visualization with \textbf{\textit{R tidyverse}} (dplyr, ggplot2 etc.)
+* **Big Data Programming**: Tutored big data analysis and viz. in \textbf{\textit{DataBricks (PySpark, AutoML, Polars, Plotly, etc.)}}
+* **Linear Algebra**: Tutored both non-computational and computational linear algebra with \textbf{\textit{Python's NumPy and SymPy}}
 
 \vspace{7pt}
 
@@ -163,8 +160,8 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Provided actionable graphs and trends using time-series analysis and NLP (sentiment analysis and textual clustering)
-* Delivered web application that matched corpus with historical journal data using text vectorization (NLTK, sklearn)
+* Provided actionable graphs and trends using \textbf{\textit{time-series analysis}} and \textbf{\textit{NLP (sentiment analysis and textual clustering)}}
+* Delivered \textbf{\textit{interactive web app in Streamlit}} that matched various corpus data together using text vectors (\textbf{\textit{NLTK}}, \textbf{\textit{sklearn}})
 
 \vspace{7pt}
 \begin{large}
@@ -180,7 +177,7 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Democraztized big data models for grassroots campaigns, utilizing machine learning for predictive analysis in voter behavior
+* Democraztized \textbf{\textit{big data}} models for grassroots campaigns, \textbf{\textit{cloud computing}} ML models for ~10 million rows in \textbf{\textit{Python's sklearn}} for predictive analysis in voter behavior, visualizing data interactively with \textbf{\textit{R Shiny}}, \textbf{\textit{Plotly}}, \textbf{\textit{Quarto}}
 * Awarded First Place in nationally recognized I-Hack hackathon for innovation by optimizing campaign outreach
  
 
