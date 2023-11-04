@@ -70,7 +70,7 @@ format:
 \end{large}
 \vspace{-0.16cm}
 * Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models that predicted ideological disposition and turnout using \textbf{\textit{R's tidyverse}}
-* Significantly decreased polling production time by automating sampling methodologies using R's statistical libraries
+* Significantly decreased polling production time by \textbf{\textit{automating sampling methodologies}} using R's statistical libraries
 * Increased accuracy and AUC for all future machine learning models by using \textbf{\textit{GIS}} data to categorize over 100 million records of voter data into 12 granularities of population density using \textbf{\textit{R's sf}} and other geospatial libraries
 
 \vspace{7pt}
