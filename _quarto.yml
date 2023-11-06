@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "**Alan J Averett**"
+  title: "Alan J Averett"
+  favicon: favicon.png
   navbar:
     background: "#FFFFFF"
     left:
