@@ -22,7 +22,7 @@
             <h1 style="margin: 0; color: #2c3e50;">Alan J Averett</h1>
             <p style="margin-top: 5px; font-size: 0.9em;">
                 832.856.4666 | <a href="mailto:ajaverett0@gmail.com" style="color: #3498db; text-decoration: none;">ajaverett0@gmail.com</a> |
-                <a href="https://linkedin.com/in/ajaverett" style="color: #3498db; text-decoration: none;">linkedin.com/in/ajaverett</a> |
+                <a href="https://linkedin.com/in/ajaverett" style="color: #3498db; text-decoration: none;">linkedin.com/in/ajaverett</a> 
             </p>
         </div>
 
@@ -44,52 +44,59 @@
             <h3 style="margin-top: 10px;">WPA Intelligence, Washington D.C.</h3>
             <p><strong>Machine Learning Intern</strong> <br> Jul 2022 - Nov 2022</p>
             <ul style="list-style-type: disc; margin-left: 20px;">
-                <li>Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models that predicted ideological disposition and turnout using R’s tidyverse</li>
-                <li>Significantly decreased polling production time by automating sampling methodologies using R’s statistical libraries</li>
-                <li>Increased accuracy and AUC for all future machine learning models by using GIS data to categorize over 100 million records of voter data into 12 granularities of population density using R’s sf and other geospatial libraries</li>
+                <li>Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models <strong><i>various tree ensemble algorithms</i></strong> that predicted ideological disposition and turnout using <strong><i>R's tidyverse</i></strong></li>
+                <li>Decreased polling production time (1 hr to 1 min) by <strong><i>automating sampling methodologies</i></strong> using R's statistical libraries</li>
+                <li>Increased accuracy and AUC for all future machine learning models (~ 1-3 percent) by using <strong><i>GIS</i></strong> data to categorize over 100 million records of voter data into 12 granularities of population density using <strong><i>R's sf</i></strong> and other geospatial libraries</li>
+            </ul>
+
+            <h3>FamilySearch, Salt Lake City, UT</h3>
+            <p><strong>Statistician</strong> <br> Sep 2023 - Dec 2023</p>
+            <ul style="list-style-type: disc; margin-left: 20px;">
+                <li>Eliminated 50+ fraudulent contractors in the African History Project by <strong><i>developing and automating</i></strong> in-house tuned anomaly detection methods in <strong><i>Python</i></strong> over 200k+ genealogical submissions; regularly presented abstracts to management</li>
             </ul>
 
             <h3>Mathematics Department BYU-Idaho, Rexburg, ID</h3>
-            <p><strong>Data Science Society President</strong> <br> Mar 2023 - Sep 2023</p>
+            <p><strong>Data Science Society President, Chief Lab Manager</strong> <br> Mar 2023 - Sep 2023</p>
             <ul style="list-style-type: disc; margin-left: 20px;">
-                <li>Oversaw and helped coordinate all projects undertaken by the society with the faculty sponsor</li>
-                <li>Led and coordinated data science society activities and meetings; mentored and supported project teams including weekly bootcamps to teach data analysis, statistics, and machine learning </li>
+                <li>Led and coordinated data science society activities and meetings; mentored and supported project teams including weekly bootcamps to teach <strong><i>data analysis/statistics and ML hyperparameter tuning</i></strong>, over 6 teams of ~ 6-12 people each</li>
+                <li>Managed, scheduled, and trained all tutors for all data science courses, school-wide for Data Science Lab <strong><i>(R and Python)</i></strong></li>
             </ul>
 
             <p><strong>Teacher’s Assistant</strong> <br> May 2022 - Present</p>
             <ul style="list-style-type: disc; margin-left: 20px;">
-              <li><strong>DS Programming:</strong> Tutored data analysis, statistics, and basic ML in Python (Pandas, NumPy, Sci-kit Learn)</li>
-              <li><strong>Data Wrangling and viz:</strong> Tutored complex data analysis and visualization with R tidyverse (dplyr, ggplot2 etc.)</li>
-              <li><strong>Big Data Programming:</strong> Tutored big data analysis and visualization in DataBricks (Polars, PySpark, Plotly, AutoML, etc.)</li>
-              <li><strong>Business Statistics:</strong> Tutored basic statistical analyses, theories, and methods with Excel</li>
-              <li><strong>Linear Algebra:</strong> Tutored both non-computational and computational linear algebra with Python (NumPy, SymPy)</li>
+            <li><strong>DS Programming:</strong> Tutored data analysis, statistics, and basic ML in <strong><i>Python (Pandas, NumPy, Sci-kit Learn)</i></strong></li>
+            <li><strong>Data Wrangling and viz:</strong> Tutored complex data analysis and visualization with <strong><i>R tidyverse</i></strong> (dplyr, ggplot2 etc.)</li>
+            <li><strong>Big Data Programming:</strong> Tutored big data analysis and visualization in <strong><i>DataBricks (Polars, PySpark, Plotly, AutoML, etc.)</i></strong></li>
+            <li><strong>Linear Algebra:</strong> Tutored both non-computational and computational linear algebra with <strong><i>Python's NumPy and SymPy</i></strong></li>
             </ul>
 
-            <p><strong>Head Lab Coordinator</strong> <br> Apr 2023 - Present</p>
-            <ul style="list-style-type: disc; margin-left: 20px;">
-                <li>Managed, scheduled, and trained tutors to work in the university data science lab for R and Python</li>
-                <li>Tutored students seeking help in programming and mathematics for all intermediate level data science courses</li>
-                <li>Created a web applet for tutorials in pandas, polars, tidyverse, and SQL; used by 100+ students</li>
-            </ul>
         </div>
 
-        <!-- Projects Section -->
+        <!-- Consulting Section -->
         <div style="margin-bottom: 20px;">
-            <h2 style="color: #2980b9; border-bottom: 2px solid #3498db; display: inline-block;">PROJECTS</h2>
+            <h2 style="color: #2980b9; border-bottom: 2px solid #3498db; display: inline-block;">CONSULTING</h2>
+            
+            <h3>Baltimore Mission (Spanish Outreach), Baltimore, MD</h3>
+            <p><strong>Technology Consultant and Regional Manager</strong> <br> Mar 2019 - Feb 2020</p>
+
+        
             
             <h3>Wilford Woodruff Papers, Rexburg, ID</h3>
-            <p><strong>Data Scientist</strong> <br> May 2023 - Present</p>
+            <p><strong>Data Scientist</strong> <br> May 2023 - Dec 2023</p>
             <ul style="list-style-type: disc; margin-left: 20px;">
-                <li>Provided actionable graphs and trends using NLP tools including sentiment analysis and unsupervised textual clustering alongside time-series analysis as part of the Wilford Woodruff production team</li>
-                <li>Delivered an interactive web application that cross-referenced religious texts with 19th century published journal entries by using a Bag-of-Words model to vectorize n-grams to find textual matches sorted by confidence</li>
+                <li>Provided actionable graphs and trends using <strong><i>time-series analysis</i></strong> and <strong><i>NLP (sentiment analysis and textual clustering)</i></strong></li>
+                <li>Delivered <strong><i>interactive web app in Streamlit</i></strong> that matched various corpus data together using text vectors (<strong><i>NLTK, sklearn</i></strong>)</li>
+            </ul>          
+
+            <h3>Ohio Voter Data Consulting, Rexburg, ID</h3>
+            <p><strong>Founder, Data Scientist</strong> <br> Sep 2023 - Present</p>
+            <ul style="list-style-type: disc; margin-left: 20px;">
+                <li>Democratized <strong><em>big data</em></strong> models for grassroots campaigns, <strong><em>cloud computing</em></strong> ML models for ~10 million rows in <strong><em>Python's sklearn</em></strong> for predictive analysis in voter behavior, visualizing data interactively with <strong><em>R Shiny</em></strong>, <strong><em>Plotly</em></strong>, <strong><em>Quarto</em></strong></li>
+                <li>Awarded First in nationally recognized MLH hackathon for innovation and creativity by optimizing campaign outreach</li>
             </ul>
 
-            <h3>FamilySearch, Rexburg, ID</h3>
-            <p><strong>Statistician</strong> <br> Sep 2023 - Present</p>
-            <ul style="list-style-type: disc; margin-left: 20px;">
-                <li>Identified erroneous genealogical submissions in the African Oral History Project using in-house tuned statistical models, anomaly detection methods, and machine learning algorithms to eliminate fraudulent contractors </li>
-            </ul>
         </div>
+
 
         <!-- Skills Section -->
         <div style="margin-bottom: 20px;">
@@ -99,7 +106,6 @@
               <li><strong>R:</strong> CAR, Mosaic, RMarkdown, Tidyverse (dplyr, tidyr, stringr, forcats, lubridate, purrr, etc.)</li>
               <li><strong>Visualization libraries:</strong> Streamlit, ggplot2, Matplotlib / Seaborn, Plotly Express, Altair</li>
               <li><strong>Other Technical Skills:</strong> Microsoft Excel, SQL, Git/GitHub, Quarto, LaTeX, Regex, Docker</li>
-              <li><strong>Math Courses:</strong> Calculus, Applied Calculus for Data Analysis, Linear Algebra, Intermediate Statistics, Applied Regression</li>
             </ul>
         </div>
 

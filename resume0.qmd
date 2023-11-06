@@ -69,9 +69,9 @@ format:
   \end{multicols}
 \end{large}
 \vspace{-0.16cm}
-* Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models that predicted ideological disposition and turnout using \textbf{\textit{R's tidyverse}}
-* Significantly decreased polling production time by \textbf{\textit{automating sampling methodologies}} using R's statistical libraries
-* Increased accuracy and AUC for all future machine learning models by using \textbf{\textit{GIS}} data to categorize over 100 million records of voter data into 12 granularities of population density using \textbf{\textit{R's sf}} and other geospatial libraries
+* Created digestible reports for 80+ political campaigns by analyzing/visualizing voter data trends with machine learning models (\textbf{\textit{various tree ensemble algorithms}}) that predicted ideological disposition and turnout using \textbf{\textit{R's tidyverse}}
+* Decreased polling production time (1 hr to 1 min) by \textbf{\textit{automating sampling methodologies}} using R's statistical libraries
+* Increased accuracy and AUC for all future machine learning models (~ 1-3 percent) by using \textbf{\textit{GIS}} data to categorize over 100 million records of voter data into 12 granularities of population density using \textbf{\textit{R's sf}} and other geospatial libraries
 
 \vspace{7pt}
 
@@ -178,14 +178,10 @@ format:
 \end{large}
 \vspace{-0.16cm}
 * Democraztized \textbf{\textit{big data}} models for grassroots campaigns, \textbf{\textit{cloud computing}} ML models for ~10 million rows in \textbf{\textit{Python's sklearn}} for predictive analysis in voter behavior, visualizing data interactively with \textbf{\textit{R Shiny}}, \textbf{\textit{Plotly}}, \textbf{\textit{Quarto}}
-* Awarded First Place in nationally recognized I-Hack hackathon for innovation by optimizing campaign outreach
+* Awarded First in nationally recognized MLH hackathon for innovation and creativity by optimizing campaign outreach
  
 
 \vspace{7pt}
-
-
-
-
 
 <!-- SKILLS -->
 \begin{large}{\bf SKILLS}
@@ -202,4 +198,3 @@ format:
 \vspace{2pt}
 * **Other Technical Skills**: Microsoft Excel, SQL, Git/GitHub, Quarto, LaTeX, Regex, Docker
 \vspace{2pt}
-* **Math Courses**: Calculus, Applied Calculus for Data Analysis, Linear Algebra, Intermediate Statistics, Applied Regression
