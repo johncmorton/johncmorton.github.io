@@ -2,11 +2,14 @@
 title: "Dash through the cosmos"
 title-block-banner: true
 title-block-include: true
+image: "cosmos.webp"
 format:
   html:
     code-fold: show
     code-summary: "Show the code"
 ---
+
+Check out the web app I made with Dash [here](https://ajaverett.pythonanywhere.com/)!
 
 ```{=html}
 
