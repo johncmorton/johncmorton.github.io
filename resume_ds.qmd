@@ -5,7 +5,7 @@
 
 
 <div style="text-align: center; margin-top: 20px;">
-    <a href="resume_ds.pdf" target="_blank" style="background-color: #007BFF; 
+    <a href="resumes/resume_ds.pdf" target="_blank" style="background-color: #007BFF; 
                                                    color: white; 
                                                    padding: 10px 20px; 
                                                    margin: 5px;
@@ -14,7 +14,7 @@
                                                    font-weight: bold; 
                                                    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);">
                                                    View DS Resume as a PDF</a>
-    <a href="resume_de.pdf" target="_blank" style="background-color: #007BFF; 
+    <a href="resumes/resume_de.pdf" target="_blank" style="background-color: #007BFF; 
                                                    color: white; 
                                                    padding: 10px 20px; 
                                                    margin: 5px;
