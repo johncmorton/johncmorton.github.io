@@ -38,5 +38,21 @@
   },
   "resume0.qmd": {
     "resume0.html": "27fa686c"
+  },
+  "posts/dash/index.qmd": {
+    "index.html": "9efede86"
+  },
+  "resume_de.qmd": {
+    "resume_de.html": "288b115e",
+    "resume_de.tex": "5f6f58bf"
+  },
+  "resume_ds.qmd": {
+    "resume_ds.html": "dcb0ee00"
+  },
+  "resumes/resume_de.qmd": {
+    "resume_de.tex": "db451a10"
+  },
+  "resumes/resume_ds.qmd": {
+    "resume_ds.tex": "7d223143"
   }
 }

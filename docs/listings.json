@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/dash/index.html",
       "/posts/hack1/index.html",
       "/posts/hack2/index.html",
       "/posts/pca/pca.html",
