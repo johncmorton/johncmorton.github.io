@@ -1,0 +1,286 @@
+,name,parent,numeral,discovery_year,year_announced,discovered_by,notes,mean_radius_km,orbital_semi_km,sidereal_period
+0,Moon,Earth,1.0,0.0,,—,Synchronous rotation (Binary),173.0,384,27.321582
+1,Phobos,Mars,1.0,1877.0,1877.0,Hall,Synchronous rotation,11.267,938,0.319
+2,Deimos,Mars,2.0,1877.0,1877.0,Hall,Synchronous rotation,6.2,234,1.262
+3,Io,Jupiter,1.0,1610.0,1610.0,Galileo,Main-group moon (Galilean),1821.6,421,1.769
+4,Europa,Jupiter,2.0,1610.0,1610.0,Galileo,Main-group moon (Galilean),1560.8,671,3.551
+5,Ganymede,Jupiter,3.0,1610.0,1610.0,Galileo,Main-group moon (Galilean),2634.1,107,7.155
+6,Callisto,Jupiter,4.0,1610.0,1610.0,Galileo,Main-group moon (Galilean),2410.3,188,16.69
+7,Amalthea,Jupiter,5.0,1892.0,1892.0,Barnard,Inner moon (Amalthea),83.5,181,0.498
+8,Himalia,Jupiter,6.0,1904.0,1905.0,Perrine,Prograde irregular (Himalia),69.8,114,250.56
+9,Elara,Jupiter,7.0,1905.0,1905.0,Perrine,Prograde irregular (Himalia),43.0,117,259.64
+10,Pasiphae,Jupiter,8.0,1908.0,1908.0,Melotte,Retrograde irregular (Pasiphae),30.0,236,743.63
+11,Sinope,Jupiter,9.0,1914.0,1914.0,Nicholson,Retrograde irregular (Pasiphae),19.0,239,758.9
+12,Lysithea,Jupiter,10.0,1938.0,1938.0,Nicholson,Prograde irregular (Himalia),18.0,117,259.2
+13,Carme,Jupiter,11.0,1938.0,1938.0,Nicholson,Retrograde irregular (Carme),23.0,234,734.17
+14,Ananke,Jupiter,12.0,1951.0,1951.0,Nicholson,Retrograde irregular (Ananke),14.0,212,629.77
+15,Leda,Jupiter,13.0,1974.0,1974.0,Kowal,Prograde irregular (Himalia),10.0,111,240.92
+16,Thebe,Jupiter,14.0,1979.0,1980.0,Synnott (Voyager 1),Inner moon (Amalthea),49.3,221,0.675
+17,Adrastea,Jupiter,15.0,1979.0,1979.0,"Jewitt, Danielson (Voyager 1)",Inner moon (Amalthea),8.2,129,0.298
+18,Metis,Jupiter,16.0,1979.0,1980.0,Synnott (Voyager 1),Inner moon (Amalthea),21.5,128,0.295
+19,Callirrhoe,Jupiter,17.0,1999.0,2000.0,"Scotti, Spahr, McMillan, Larsen, Montani, Gleason, Gehrels",Retrograde irregular (Pasiphae),4.5,241,758.77
+20,Themisto,Jupiter,18.0,,,"Kowal and Roemer (original); Sheppard, Jewitt, Fernández, Magnier (rediscovery)",Prograde irregular (Themisto),4.0,728,130.02
+21,Megaclite,Jupiter,19.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Pasiphae),2.7,234,752.86
+22,Taygete,Jupiter,20.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Carme),2.5,232,732.41
+23,Chaldene,Jupiter,21.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Carme),1.9,231,723.72
+24,Harpalyke,Jupiter,22.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Ananke),2.2,208,623.32
+25,Kalyke,Jupiter,23.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Carme),2.6,234,742.06
+26,Iocaste,Jupiter,24.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Ananke),2.6,210,631.6
+27,Erinome,Jupiter,25.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Carme),1.6,231,728.46
+28,Isonoe,Jupiter,26.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Carme),1.9,231,726.23
+29,Praxidike,Jupiter,27.0,2000.0,2001.0,"Sheppard, Jewitt, Fernández, Magnier, Dahm, Evans",Retrograde irregular (Ananke),3.5,209,625.39
+30,Autonoe,Jupiter,28.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Pasiphae),2.0,240,760.95
+31,Thyone,Jupiter,29.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Ananke),2.0,209,627.21
+32,Hermippe,Jupiter,30.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Ananke),2.0,211,633.9
+33,Aitne,Jupiter,31.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Carme),1.5,232,730.18
+34,Eurydome,Jupiter,32.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Pasiphae),1.5,228,717.33
+35,Euanthe,Jupiter,33.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Ananke),1.5,207,620.49
+36,Euporie,Jupiter,34.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Ananke),1.0,193,550.74
+37,Orthosie,Jupiter,35.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Ananke),1.0,207,622.56
+38,Sponde,Jupiter,36.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Pasiphae),1.0,234,748.34
+39,Kale,Jupiter,37.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Carme),1.0,232,729.47
+40,Pasithee,Jupiter,38.0,2001.0,2002.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Carme),1.0,230,719.44
+41,Hegemone,Jupiter,39.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández",Retrograde irregular (Pasiphae),1.5,235,739.88
+42,Mneme,Jupiter,40.0,2003.0,2003.0,"Gladman, Allen",Retrograde irregular (Ananke),1.0,210,620.04
+43,Aoede,Jupiter,41.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Retrograde irregular (Pasiphae),2.0,239,761.5
+44,Thelxinoe,Jupiter,42.0,2003.0,2004.0,"Sheppard, Jewitt, Kleyna, Gladman, Kavelaars, Petit, Allen",Retrograde irregular (Ananke),1.0,211,628.09
+45,Arche,Jupiter,43.0,2002.0,2002.0,"Sheppard, Meech, Hsieh, Tholen, Tonry",Retrograde irregular (Carme),1.5,233,731.95
+46,Kallichore,Jupiter,44.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández",Retrograde irregular (Carme),1.0,232,728.73
+47,Helike,Jupiter,45.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Retrograde irregular (Ananke),2.0,210,626.32
+48,Carpo,Jupiter,46.0,2003.0,2003.0,"Sheppard, Gladman, Kavelaars, Petit, Allen, Jewitt, Kleyna",Prograde irregular (Carpo),1.5,170,456.3
+49,Eukelade,Jupiter,47.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Retrograde irregular (Carme),2.0,233,730.47
+50,Cyllene,Jupiter,48.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Pasiphae),1.0,238,752.0
+51,Kore,Jupiter,49.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Pasiphae),1.0,245,779.17
+52,Herse,Jupiter,50.0,2003.0,2003.0,"Gladman, Sheppard, Jewitt, Kleyna, Kavelaars, Petit, Allen",Retrograde irregular (Carme),1.0,229,714.51
+53,S/2010 J 1,Jupiter,51.0,2010.0,2011.0,"Jacobson, Brozović, Gladman, Alexandersen",Retrograde irregular (Carme),1.0,233,723.2
+54,S/2010 J 2,Jupiter,52.0,2010.0,2011.0,Veillet,Retrograde irregular (Ananke),0.5,203,588.1
+55,Dia,Jupiter,53.0,2000.0,2001.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Prograde irregular (Himalia),2.0,121,287.0
+56,S/2016 J 1,Jupiter,54.0,2016.0,2017.0,Sheppard,Retrograde irregular (Ananke),1.0,205,602.7
+57,S/2003 J 18,Jupiter,55.0,2003.0,2003.0,"Gladman, Sheppard, Jewitt, Kleyna, Kavelaars, Petit, Allen",Retrograde irregular (Ananke),1.0,202,588.0
+58,S/2011 J 2,Jupiter,56.0,2011.0,2012.0,Sheppard,Retrograde irregular (Pasiphae),0.5,233,726.8
+59,Eirene,Jupiter,57.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Retrograde irregular (Carme),2.0,237,759.7
+60,Philophrosyne,Jupiter,58.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández",Retrograde irregular (Pasiphae),1.0,228,701.3
+61,S/2017 J 1,Jupiter,59.0,2017.0,2017.0,Sheppard,Retrograde irregular (Pasiphae),2.0,234,734.2
+62,Eupheme,Jupiter,60.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Retrograde irregular (Ananke),1.0,211,627.8
+63,S/2003 J 19,Jupiter,61.0,2003.0,2003.0,"Gladman, Sheppard, Jewitt, Kleyna, Kavelaars, Petit, Allen",Retrograde irregular (Carme),1.0,227,697.6
+64,Valetudo,Jupiter,62.0,2016.0,2018.0,Sheppard,Prograde irregular (Valetudo),0.5,189,532.0
+65,S/2017 J 2,Jupiter,63.0,2017.0,2018.0,Sheppard,Retrograde irregular (Carme),1.0,232,723.8
+66,S/2017 J 3,Jupiter,64.0,2017.0,2018.0,Sheppard,Retrograde irregular (Ananke),1.0,206,605.8
+67,Pandia,Jupiter,65.0,2017.0,2018.0,Sheppard,Prograde irregular (Himalia),1.5,114,251.8
+68,S/2017 J 5,Jupiter,66.0,2017.0,2018.0,Sheppard,Retrograde irregular (Carme),1.0,231,720.5
+69,S/2017 J 6,Jupiter,67.0,2017.0,2018.0,Sheppard,Retrograde irregular (Pasiphae),1.0,223,684.7
+70,S/2017 J 7,Jupiter,68.0,2017.0,2018.0,Sheppard,Retrograde irregular (Ananke),1.0,205,602.8
+71,S/2017 J 8,Jupiter,69.0,2017.0,2018.0,Sheppard,Retrograde irregular (Carme),0.5,231,720.7
+72,S/2017 J 9,Jupiter,70.0,2017.0,2018.0,Sheppard,Retrograde irregular (Ananke),1.0,214,640.9
+73,Ersa,Jupiter,71.0,2018.0,2018.0,Sheppard,Prograde irregular (Himalia),1.5,114,250.4
+74,S/2011 J 1,Jupiter,72.0,2011.0,2012.0,Sheppard,Retrograde irregular (Carme),0.5,201,580.7
+75,S/2003 J 2,Jupiter,,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Retrograde irregular (Ananke),1.0,205,602.02
+76,S/2003 J 4,Jupiter,,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández, Hsieh",Retrograde irregular (Pasiphae),1.0,220,668.85
+77,S/2003 J 9,Jupiter,,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández",Retrograde irregular (Carme),0.5,241,767.6
+78,S/2003 J 10,Jupiter,,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández",Retrograde irregular (Carme?),1.0,228,707.78
+79,S/2003 J 12,Jupiter,,2003.0,2003.0,"Sheppard, Jewitt, Kleyna, Fernández",Retrograde irregular (Ananke),0.5,215,646.64
+80,S/2003 J 16,Jupiter,,2003.0,2003.0,"Gladman, Sheppard, Jewitt, Kleyna, Kavelaars, Petit, Allen",Retrograde irregular (Ananke),1.0,205,600.18
+81,S/2003 J 23,Jupiter,,2003.0,2004.0,"Sheppard, Jewitt, Kleyna, Fernández",Retrograde irregular (Pasiphae),1.0,246,792.0
+82,S/2003 J 24,Jupiter,,2003.0,2021.0,"Sheppard, Jewitt, Kleyna, Gladman, Veillet",Retrograde irregular (Carme),1.5,230,715.4
+83,S/2011 J 3,Jupiter,,2011.0,2022.0,Sheppard,Prograde irregular (Himalia),1.5,117,261.77
+84,S/2016 J 3,Jupiter,,2016.0,2023.0,Sheppard,Retrograde irregular (Carme),1.0,222,676.37
+85,S/2016 J 4,Jupiter,,2016.0,2023.0,Sheppard,Retrograde irregular (Pasiphae),1.0,236,743.69
+86,S/2018 J 2,Jupiter,,2018.0,2022.0,Sheppard,Prograde irregular (Himalia),1.5,114,250.88
+87,S/2018 J 3,Jupiter,,2018.0,2023.0,Sheppard,Retrograde irregular (Carme),0.5,228,704.56
+88,S/2018 J 4,Jupiter,,2018.0,2023.0,Sheppard,Prograde irregular (Carpo),1.0,165,433.16
+89,S/2021 J 1,Jupiter,,2021.0,2023.0,Sheppard,Retrograde irregular (Ananke),0.5,206,606.99
+90,S/2021 J 2,Jupiter,,2021.0,2023.0,Sheppard,Retrograde irregular (Ananke),0.5,211,627.96
+91,S/2021 J 3,Jupiter,,2021.0,2023.0,Sheppard,Retrograde irregular (Ananke),1.0,214,643.85
+92,S/2021 J 4,Jupiter,,2021.0,2023.0,Sheppard,Retrograde irregular (Carme),0.5,229,710.13
+93,S/2021 J 5,Jupiter,,2021.0,2023.0,"Sheppard, Tholen, Trujillo",Retrograde irregular (Carme),1.0,228,704.8
+94,S/2021 J 6,Jupiter,,2021.0,2023.0,"Sheppard, Tholen, Trujillo",Retrograde irregular (Carme),0.5,234,732.55
+95,S/2022 J 1,Jupiter,,2022.0,2023.0,Sheppard,Retrograde irregular (Carme),0.5,220,667.34
+96,S/2022 J 2,Jupiter,,2022.0,2023.0,Sheppard,Retrograde irregular (Carme),0.5,224,685.51
+97,S/2022 J 3,Jupiter,,2022.0,2023.0,Sheppard,Retrograde irregular (Ananke),0.5,209,617.82
+98,Mimas,Saturn,1.0,1789.0,1789.0,Herschel,Main-group moon,198.2,185,0.942
+99,Enceladus,Saturn,2.0,1789.0,1789.0,Herschel,Main-group moon,252.1,238,1.37
+100,Tethys,Saturn,3.0,1684.0,1686.0,Cassini,Main-group moon (Sidera Lodoicea),533.1,294,1.888
+101,Dione,Saturn,4.0,1684.0,1686.0,Cassini,Main-group moon (Sidera Lodoicea),561.4,377,2.737
+102,Rhea,Saturn,5.0,1672.0,1673.0,Cassini,Main-group moon (Sidera Lodoicea),763.8,527,4.518
+103,Titan,Saturn,6.0,1655.0,1656.0,Huygens,Main-group moon,2574.73,122,15.95
+104,Hyperion,Saturn,7.0,1848.0,1848.0,"W.Bond, G. Bond, and Lassell",Main-group moon,135.0,150,21.28
+105,Iapetus,Saturn,8.0,1671.0,1673.0,Cassini,Main-group moon (Sidera Lodoicea),735.6,356,79.33
+106,Phoebe,Saturn,9.0,1898.0,1899.0,Pickering,Retrograde irregular (Norse),106.5,129,550.31
+107,Janus,Saturn,10.0,1966.0,1967.0,Dollfus; Voyager 1 (confirmed),Inner moon (co-orbital),89.5,151,0.695
+108,Epimetheus,Saturn,11.0,1966.0,1967.0,Walker; Voyager 1 (confirmed),Inner moon (co-orbital),58.1,151,0.694
+109,Helene,Saturn,12.0,1980.0,1980.0,"Laques, Lecacheux",Main-group trojan,17.6,377,2.737
+110,Telesto,Saturn,13.0,1980.0,1980.0,"Smith, Reitsema, Larson, Fountain (Voyager 1)",Main-group trojan,12.4,294,1.888
+111,Calypso,Saturn,14.0,1980.0,1980.0,"Pascu, Seidelmann, Baum, Currie",Main-group trojan,10.7,294,1.888
+112,Atlas,Saturn,15.0,1980.0,1980.0,Terrile (Voyager 1),Inner moon (shepherd),15.1,137,0.602
+113,Prometheus,Saturn,16.0,1980.0,1980.0,Collins (Voyager 1),Inner moon (shepherd),43.1,139,0.613
+114,Pandora,Saturn,17.0,1980.0,1980.0,Collins (Voyager 1),Inner moon (shepherd),40.7,141,0.629
+115,Pan,Saturn,18.0,1981.0,1990.0,Showalter (Voyager 2),Inner moon (shepherd),14.1,133,0.575
+116,Ymir,Saturn,19.0,2000.0,2000.0,Gladman,Retrograde irregular (Norse),9.0,231,1315.58
+117,Paaliaq,Saturn,20.0,2000.0,2000.0,Gladman,Prograde irregular (Inuit) (Paaliaq),11.0,152,686.95
+118,Tarvos,Saturn,21.0,2000.0,2000.0,"Gladman, Kavelaars",Prograde irregular (Gallic),7.5,179,926.23
+119,Ijiraq,Saturn,22.0,2000.0,2000.0,"Gladman, Kavelaars",Prograde irregular (Inuit) (Kiviuq),6.0,111,451.42
+120,Suttungr,Saturn,23.0,2000.0,2000.0,"Gladman, Kavelaars",Retrograde irregular (Norse),3.5,194,1016.67
+121,Kiviuq,Saturn,24.0,2000.0,2000.0,Gladman,Prograde irregular (Inuit) (Kiviuq),8.0,111,449.22
+122,Mundilfari,Saturn,25.0,2000.0,2000.0,"Gladman, Kavelaars",Retrograde irregular (Norse),3.5,186,952.77
+123,Albiorix,Saturn,26.0,2000.0,2000.0,"Holman, Spahr",Prograde irregular (Gallic),16.0,161,783.45
+124,Skathi,Saturn,27.0,2000.0,2000.0,"Gladman, Kavelaars",Retrograde irregular (Norse),4.0,155,728.2
+125,Erriapus,Saturn,28.0,2000.0,2000.0,"Gladman, Kavelaars",Prograde irregular (Gallic),5.0,173,871.19
+126,Siarnaq,Saturn,29.0,2000.0,2000.0,"Gladman, Kavelaars",Prograde irregular (Inuit) (Siarnaq),20.0,180,896.44
+127,Thrymr,Saturn,30.0,2000.0,2000.0,"Gladman, Kavelaars",Retrograde irregular (Norse),3.5,203,1094.11
+128,Narvi,Saturn,31.0,2003.0,2003.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.5,190,1003.86
+129,Methone,Saturn,32.0,2004.0,2004.0,"Porco, Charnoz, Brahic, Dones (Cassini–Huygens)",Alkyonide moon,1.45,194,1.01
+130,Pallene,Saturn,33.0,2004.0,2004.0,"Gordon, Murray, Beurle, et al. (Cassini–Huygens)",Alkyonide moon,2.22,212,1.154
+131,Polydeuces,Saturn,34.0,2004.0,2004.0,Porco et al. (Cassini–Huygens),Main-group trojan,1.3,377,2.737
+132,Daphnis,Saturn,35.0,2005.0,2005.0,Porco et al. (Cassini–Huygens),Inner moon (shepherd),3.8,136,0.594
+133,Aegir,Saturn,36.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),3.0,207,1117.52
+134,Bebhionn,Saturn,37.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Prograde irregular (Gallic),3.0,171,834.84
+135,Bergelmir,Saturn,38.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),3.0,193,1005.74
+136,Bestla,Saturn,39.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),3.5,201,1088.72
+137,Farbauti,Saturn,40.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),2.5,203,1085.55
+138,Fenrir,Saturn,41.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),2.0,224,1260.35
+139,Fornjot,Saturn,42.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),3.0,251,1494.2
+140,Hati,Saturn,43.0,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),3.0,198,1038.61
+141,Hyrrokkin,Saturn,44.0,2004.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),4.0,184,931.86
+142,Kari,Saturn,45.0,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.5,220,1230.97
+143,Loge,Saturn,46.0,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,230,1311.36
+144,Skoll,Saturn,47.0,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,176,878.29
+145,Surtur,Saturn,48.0,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,227,1297.36
+146,Anthe,Saturn,49.0,2007.0,2007.0,Porco et al. (Cassini–Huygens),Alkyonide moon,0.9,197,1.0365
+147,Jarnsaxa,Saturn,50.0,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,188,964.74
+148,Greip,Saturn,51.0,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,182,921.19
+149,Tarqeq,Saturn,52.0,2007.0,2007.0,"Sheppard, Jewitt, Kleyna",Prograde irregular (Inuit) (Siarnaq),3.5,180,887.48
+150,Aegaeon,Saturn,53.0,2008.0,2009.0,Cassini Imaging Science Team Cassini–Huygens,G-ring moonlet,0.33,167,0.808
+151,Gridr,Saturn,54.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,194,1010.55
+152,Angrboda,Saturn,55.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,206,1107.13
+153,Skrymir,Saturn,56.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),4.0,211,1149.82
+154,Gerd,Saturn,57.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),4.0,211,1150.69
+155,S/2004 S 26,Saturn,58.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),4.0,266,1627.18
+156,Eggther,Saturn,59.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna, Marsden, Jacobson",Retrograde irregular (Norse),6.0,199,1054.45
+157,S/2004 S 29,Saturn,60.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna, Marsden",Prograde irregular (Gallic),4.0,169,826.44
+158,Beli,Saturn,61.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,203,1087.84
+159,Gunnlod,Saturn,62.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),4.0,212,1153.96
+160,Thiazzi,Saturn,63.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),4.0,241,1403.18
+161,S/2004 S 34,Saturn,64.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,242,1414.59
+162,Alvaldi,Saturn,65.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),6.0,224,1253.08
+163,Geirrod,Saturn,66.0,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),4.0,219,1211.02
+164,S/2004 S 7,Saturn,,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse?),3.0,209,1140.24
+165,S/2004 S 12,Saturn,,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse),2.5,198,1046.19
+166,S/2004 S 13,Saturn,,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse?),3.0,184,933.48
+167,S/2004 S 17,Saturn,,2004.0,2005.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse?),2.0,194,1014.7
+168,S/2004 S 21,Saturn,,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,226,1272.61
+169,S/2004 S 24,Saturn,,2004.0,2019.0,"Sheppard, Jewitt, Kleyna, Marsden","Prograde irregular (group unknown, possibly Gallic)",3.0,229,129.0
+170,S/2004 S 28,Saturn,,2004.0,2019.0,"Sheppard, Jewitt, Kleyna, Marsden",Retrograde irregular (Norse?),4.0,220,1220.31
+171,S/2004 S 31,Saturn,,2004.0,2019.0,"Sheppard, Jewitt, Kleyna, Marsden",Prograde irregular (Inuit) (Siarnaq),4.0,175,869.65
+172,S/2004 S 36,Saturn,,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,231,1319.07
+173,S/2004 S 37,Saturn,,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),4.0,158,748.18
+174,S/2004 S 39,Saturn,,2004.0,2019.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,235,1351.83
+175,S/2004 S 40,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,160,765.92
+176,S/2004 S 41,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,180,895.76
+177,S/2004 S 42,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,182,910.61
+178,S/2004 S 43,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,189,971.48
+179,S/2004 S 44,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.5,195,1014.98
+180,S/2004 S 45,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,196,1058.95
+181,S/2004 S 46,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,205,1107.57
+182,S/2004 S 47,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,160,755.69
+183,S/2004 S 48,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,221,1248.52
+184,S/2004 S 49,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,223,1290.34
+185,S/2004 S 50,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,223,1219.11
+186,S/2004 S 51,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,252,1544.65
+187,S/2004 S 52,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,264,1573.49
+188,S/2004 S 53,Saturn,,2004.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,232,1367.72
+189,S/2005 S 4,Saturn,,2005.0,2023.0,Sheppard et al.,Prograde irregular (Inuit) (Kiviuq),2.5,113,448.63
+190,S/2005 S 5,Saturn,,2005.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,213,1138.62
+191,S/2006 S 1,Saturn,,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,187,963.37
+192,S/2006 S 3,Saturn,,2006.0,2006.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,220,1227.21
+193,S/2006 S 9,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,144,648.71
+194,S/2006 S 10,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,189,965.26
+195,S/2006 S 11,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,197,1018.45
+196,S/2006 S 12,Saturn,,2006.0,2023.0,Sheppard et al.,"Prograde irregular (group unknown, possibly Gallic)",2.0,195,104.0
+197,S/2006 S 13,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,199,1061.74
+198,S/2006 S 14,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,210,1150.64
+199,S/2006 S 15,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,217,1183.57
+200,S/2006 S 16,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,217,1217.36
+201,S/2006 S 17,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,223,1262.48
+202,S/2006 S 18,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,227,1324.09
+203,S/2006 S 19,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,238,1324.68
+204,S/2006 S 20,Saturn,,2006.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.5,131,563.89
+205,S/2007 S 2,Saturn,,2007.0,2007.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse),3.0,167,808.08
+206,S/2007 S 3,Saturn,,2007.0,2007.0,"Sheppard, Jewitt, Kleyna",Retrograde irregular (Norse?),3.0,189,977.8
+207,S/2007 S 5,Saturn,,2007.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,158,748.5
+208,S/2007 S 6,Saturn,,2007.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),1.5,185,944.31
+209,S/2007 S 7,Saturn,,2007.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,159,742.79
+210,S/2007 S 8,Saturn,,2007.0,2023.0,Sheppard et al.,Prograde irregular (Gallic),2.0,170,826.94
+211,S/2007 S 9,Saturn,,2007.0,2023.0,Sheppard et al.,Retrograde irregular (Norse),2.0,201,1099.69
+212,S/2009 S 1,Saturn,,2009.0,2009.0,Cassini Imaging Science Team Cassini–Huygens,B-ring moonlet,0.15,117,0.471
+213,S/2019 S 1,Saturn,,2019.0,2021.0,"Ashton, Gladman, Petit, Alexandersen",Prograde irregular (Inuit) (Kiviuq),3.0,112,443.8
+214,S/2019 S 2,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,165,796.22
+215,S/2019 S 3,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,170,836.68
+216,S/2019 S 4,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,179,898.4
+217,S/2019 S 5,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,190,971.54
+218,S/2019 S 6,Saturn,,2019.0,2023.0,Ashton et al.,Prograde irregular (Inuit) (Siarnaq),2.0,181,905.41
+219,S/2019 S 7,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,201,1093.86
+220,S/2019 S 8,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,202,1080.6
+221,S/2019 S 9,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,203,1104.27
+222,S/2019 S 10,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,207,1129.53
+223,S/2019 S 11,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,206,1097.33
+224,S/2019 S 12,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,209,1130.4
+225,S/2019 S 13,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,209,1132.9
+226,S/2019 S 14,Saturn,,2019.0,2023.0,Ashton et al.,Prograde irregular (Inuit) (Siarnaq),2.0,178,902.0
+227,S/2019 S 15,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,211,1156.21
+228,S/2019 S 16,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,232,1360.26
+229,S/2019 S 17,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,227,1322.15
+230,S/2019 S 18,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,231,1349.74
+231,S/2019 S 19,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,230,1342.57
+232,S/2019 S 20,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,236,1343.58
+233,S/2019 S 21,Saturn,,2019.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,264,1572.06
+234,S/2020 S 1,Saturn,,2020.0,2023.0,Ashton et al.,Prograde irregular (Inuit) (Kiviuq),2.0,113,450.83
+235,S/2020 S 2,Saturn,,2020.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,178,907.0
+236,S/2020 S 3,Saturn,,2020.0,2023.0,Ashton et al.,Prograde irregular (Inuit) (Siarnaq),1.5,180,896.35
+237,S/2020 S 4,Saturn,,2020.0,2023.0,Ashton et al.,Prograde irregular (Gallic),1.5,182,910.34
+238,S/2020 S 5,Saturn,,2020.0,2023.0,Ashton et al.,Prograde irregular (Inuit) (Siarnaq),1.5,183,933.52
+239,S/2020 S 6,Saturn,,2020.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,212,1149.11
+240,S/2020 S 7,Saturn,,2020.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,174,844.85
+241,S/2020 S 8,Saturn,,2020.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,219,1201.72
+242,S/2020 S 9,Saturn,,2020.0,2023.0,Ashton et al.,Retrograde irregular (Norse),2.0,254,1565.23
+243,S/2020 S 10,Saturn,,2020.0,2023.0,Ashton et al.,Retrograde irregular (Norse),1.5,253,1479.87
+244,Ariel,Uranus,1.0,1851.0,1851.0,Lassell,Main-group moon,578.9,190,2.52
+245,Umbriel,Uranus,2.0,1851.0,1851.0,Lassell,Main-group moon,584.7,266,4.144
+246,Titania,Uranus,3.0,1787.0,1787.0,Herschel,Main-group moon,788.9,436,8.706
+247,Oberon,Uranus,4.0,1787.0,1787.0,Herschel,Main-group moon,761.4,583,13.46
+248,Miranda,Uranus,5.0,1948.0,1949.0,Kuiper,Main-group moon,235.8,129,1.413
+249,Cordelia,Uranus,6.0,1986.0,1986.0,Terrile (Voyager 2),Inner moon (shepherd),20.1,498,0.335
+250,Ophelia,Uranus,7.0,1986.0,1986.0,Terrile (Voyager 2),Inner moon (shepherd),21.4,538,0.376
+251,Bianca,Uranus,8.0,1986.0,1986.0,Smith (Voyager 2),Inner moon,25.7,592,0.435
+252,Cressida,Uranus,9.0,1986.0,1986.0,Synnott (Voyager 2),Inner moon,39.8,618,0.464
+253,Desdemona,Uranus,10.0,1986.0,1986.0,Synnott (Voyager 2),Inner moon,32.0,627,0.474
+254,Juliet,Uranus,11.0,1986.0,1986.0,Synnott (Voyager 2),Inner moon,46.8,644,0.493
+255,Portia,Uranus,12.0,1986.0,1986.0,Synnott (Voyager 2),Inner moon,67.6,661,0.513
+256,Rosalind,Uranus,13.0,1986.0,1986.0,Synnott (Voyager 2),Inner moon,36.0,699,0.558
+257,Belinda,Uranus,14.0,1986.0,1986.0,Synnott (Voyager 2),Inner moon,40.3,753,0.624
+258,Puck,Uranus,15.0,1985.0,1986.0,Synnott (Voyager 2),Inner moon,81.0,860,0.762
+259,Caliban,Uranus,16.0,1997.0,1997.0,"Gladman, Nicholson, Burns, Kavelaars",Retrograde irregular,36.4,723,579.73
+260,Sycorax,Uranus,17.0,1997.0,1997.0,"Gladman, Nicholson, Burns, Kavelaars",Retrograde irregular,93.0,121,1288.38
+261,Prospero,Uranus,18.0,1999.0,1999.0,"Gladman, Holman, Kavelaars, Petit, Scholl",Retrograde irregular,25.0,162,1978.29
+262,Setebos,Uranus,19.0,1999.0,1999.0,"Gladman, Holman, Kavelaars, Petit, Scholl",Retrograde irregular,24.0,174,2225.21
+263,Stephano,Uranus,20.0,1999.0,1999.0,"Gladman, Holman, Kavelaars, Petit, Scholl",Retrograde irregular,16.0,800,677.36
+264,Trinculo,Uranus,21.0,2001.0,2002.0,"Holman, Kavelaars, Milisavljevic",Retrograde irregular,9.5,850,749.24
+265,Francisco,Uranus,22.0,2001.0,2003.0,"Holman, Kavelaars, Milisavljevic, Gladman",Retrograde irregular,11.0,427,266.56
+266,Margaret,Uranus,23.0,2003.0,2003.0,"Sheppard, Jewitt",Prograde irregular,10.0,143,168.0
+267,Ferdinand,Uranus,24.0,2001.0,2003.0,"Holman, Kavelaars, Milisavljevic, et al.",Retrograde irregular,10.0,209,2887.21
+268,Perdita,Uranus,25.0,1986.0,,Karkoschka (Voyager 2),Inner moon,15.0,764,0.638
+269,Mab,Uranus,26.0,2003.0,2003.0,"Showalter, Lissauer",Inner moon,12.0,977,0.923
+270,Cupid,Uranus,27.0,2003.0,2003.0,"Showalter, Lissauer",Inner moon,9.0,743,0.613
+271,Triton,Neptune,1.0,1846.0,1846.0,Lassell,Retrograde irregular,1353.4,354,5.877
+272,Nereid,Neptune,2.0,1949.0,1949.0,Kuiper,Prograde irregular,170.0,551,360.14
+273,Naiad,Neptune,3.0,1989.0,1989.0,Terrile (Voyager 2),Inner moon,33.0,482,0.294
+274,Thalassa,Neptune,4.0,1989.0,1989.0,Terrile (Voyager 2),Inner moon,41.0,500,0.311
+275,Despina,Neptune,5.0,1989.0,1989.0,Synnott (Voyager 2),Inner moon,78.0,525,0.335
+276,Galatea,Neptune,6.0,1989.0,1989.0,Synnott (Voyager 2),Inner moon,88.0,619,0.429
+277,Larissa,Neptune,7.0,,,"Reitsema, Hubbard, Lebofsky, Tholen (Voyager 2)",Inner moon,97.0,735,0.555
+278,Proteus,Neptune,8.0,1989.0,1989.0,Synnott (Voyager 2),Inner moon,210.0,117,1.122
+279,Halimede,Neptune,9.0,2002.0,2003.0,"Holman, Kavelaars, Grav, Fraser, Milisavljevic",Retrograde irregular,31.0,157,1879.71
+280,Psamathe,Neptune,10.0,2003.0,2003.0,"Jewitt, Kleyna, Sheppard, Holman, Kavelaars",Retrograde irregular,20.0,466,9115.91
+281,Sao,Neptune,11.0,2002.0,2003.0,"Holman, Kavelaars, Grav, Fraser, Milisavljevic",Prograde irregular,22.0,224,291.0
+282,Laomedeia,Neptune,12.0,2002.0,2003.0,"Holman, Kavelaars, Grav, Fraser, Milisavljevic",Prograde irregular,21.0,235,316.0
+283,Neso,Neptune,13.0,2002.0,2003.0,"Holman, Kavelaars, Grav, Fraser, Milisavljevic",Retrograde irregular,30.0,483,9740.73
+284,Hippocamp,Neptune,14.0,,2013.0,Showalter et al.,Inner moon,17.4,105,0.9362

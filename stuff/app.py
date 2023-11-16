@@ -1,39 +1,33 @@
 # First, import the necessary libraries
 import dash
-from dash import dcc, html
+from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
 import numpy as np
 import janitor
+import os
+os.chdir(os.path.dirname(__file__))
+
+
 
 pattern = r"(\d{1,3}(?:,\d{3})*(?:\.\d+)?)"
 planets =       ['Mercury', 'Venus',   'Earth',   'Mars',    'Jupiter', 'Saturn',  'Uranus',  'Neptune']
 planet_colors = ['#8d8d8d', '#d9b700', '#197ad9', '#d64c78', '#d45b00', '#ada6c1', '#6cd9b4', '#3759bf']
 color_map = dict(zip(planets, planet_colors))
 
+df = pd.read_csv('moons.csv')
 
-
-
-df = pd\
-    .read_html("https://en.wikipedia.org/wiki/List_of_natural_satellites")[-2]\
-    .drop(columns=["Image"])\
-    .clean_names()\
-    .assign(discovery_year=lambda x: pd.to_numeric(x['discovery_year'], errors='coerce'),
-            year_announced=lambda x: pd.to_numeric(x['year_announced'], errors='coerce'),
-            numeral=lambda x: pd.to_numeric(x['numeral'].str.extract('(\\d+)', expand=False), errors='coerce'),
-            mean_radius_km=lambda x: pd.to_numeric(x['mean_radius_km_'].str.extract(pattern, expand=False).str.replace(',', ''), errors='coerce'),
-            orbital_semi_km=lambda x: pd.to_numeric(x['orbital_semi_major_axis_km_'].str.extract(pattern, expand=False).str.replace(',', ''), errors='coerce'),
-            sidereal_period=lambda x: pd.to_numeric(x['sidereal_period_d_r_=_retrograde_'].str.extract(pattern, expand=False).str.replace(',', ''), errors='coerce'))\
-    .query("parent in @planets")\
-    .assign(sorting_key = lambda x: x['parent'].map(lambda y: planets.index(y)))\
-    .sort_values(by=['sorting_key', 'numeral'])\
-    .drop(columns=['mean_radius_km_', 
-                   'orbital_semi_major_axis_km_', 
-                   'sidereal_period_d_r_=_retrograde_',
-                   'ref_s_',
-                   'sorting_key'])\
-    .assign(discovery_year=lambda x: np.where(x['parent'] == 'Earth', 0, x['discovery_year']))
+fig = px\
+    .area(
+        x=df['discovery_year'].value_counts().sort_index().index, 
+        y=df['discovery_year'].value_counts().sort_index().cumsum().values, 
+        template="simple_white",
+        color_discrete_sequence=['#197ad9'],
+        # log_y=True,
+        labels={'x': 'Year of Discovery', 'y': 'Number of Moons Discovered'},
+        title='Number of Moons Discovered Over Time')\
+    .update_xaxes(range=[1610, 2023])
 
 
 # Initialize the Dash app
@@ -48,9 +42,90 @@ app.layout = html.Div([
     html.Div([
     ], style={'width': '20%', 'margin': 'auto'}),
 
+
+
     html.Div([
 
-        html.Label('Year of Discovery:'),
+        html.H1('Moons of the Solar System', style={'textAlign': 'center'}),
+
+        html.Br(),
+
+        html.P('This dashboard displays information about the moons of the solar system. Use the slider to filter the data by year of discovery. The bar chart shows the number of moons discovered by each parent planet. The donut chart shows the distribution of moons discovered by parent planet.'),
+
+        html.Hr(),
+
+        html.Br(),
+
+        html.H2('Interactive Table', style={'textAlign': 'center'}),
+
+        dcc.Dropdown(
+            id='column-selector',
+            options=[{'label': col, 'value': col} for col in df.columns],
+            multi=True,
+            value=["name","parent", "discovery_year"]  # Default to all columns
+        ),
+
+        html.Br(),
+
+        dash_table.DataTable(
+            id='data-table',
+            data=df.to_dict('records'),
+            columns=[{'id': c, 'name': c} for c in df.columns],
+            page_size=10,
+            sort_action='native',
+
+            style_cell={
+                'fontFamily': 'Arial, sans-serif',
+                'fontSize': '14px',
+                'textAlign': 'left',
+            },
+            style_cell_conditional=[
+                {
+                    'if': {'column_id': c},
+                    'textAlign': 'left'
+                } for c in ['Date', 'Region']
+            ],
+            style_data={
+                'color': 'black',
+                'backgroundColor': 'white',
+                'border': 'none'
+            },
+            style_data_conditional=[
+                {
+                    'if': {'row_index': 'odd'},
+                    'backgroundColor': 'rgb(240, 240, 240)',
+                }
+            ],
+            style_header={
+                'backgroundColor': 'darkblue',
+                'color': 'white',
+                'fontWeight': 'bold',
+                'border': 'black',
+            },
+            style_table={
+                'overflowX': 'auto',
+                'minWidth': '100%',
+            },
+            css=[{
+                'selector': '.dash-spreadsheet-container .dash-spreadsheet-inner *',
+                'rule': 'font-family: Arial, sans-serif;'
+            }],
+        ),
+
+        html.Br(),
+
+        html.H2('Interactive Plotly Chart', style={'textAlign': 'center'}),
+
+        html.Br(),
+
+        dcc.Graph(figure=fig, style={'width': '100%', 'height': '50%'}),
+
+        html.Br(),
+
+        html.H2('Charts with Callbacks', style={'textAlign': 'center'}),
+
+
+        html.P('Year of Discovery:'),
         dcc.Slider(
             id='year-slider',
             min=1600,
@@ -59,6 +134,8 @@ app.layout = html.Div([
             marks={int(year): {'label': str(int(year)), 'style': {'transform': 'rotateY(0deg) rotate(45deg)'}} for year in years},
             included=True
         ),
+
+        html.Br(),
         
         html.Div([
             dcc.Graph(id='moons-bar-chart', style={'display': 'inline-block', 'width': '50%'}),
@@ -69,7 +146,8 @@ app.layout = html.Div([
     html.Div([
     ], style={'width': '20%', 'margin': 'auto'}),
 
-])
+], style={'width': '100%', 'margin': 'auto','margin': '0', 'backgroundColor': 'white'})
+
 
 # Callback to update both the bar chart and the donut chart
 @app.callback(
@@ -131,6 +209,17 @@ def update_figures(selected_year):
     
     return bar_fig, donut_fig
 
+@app.callback(
+    Output('data-table', 'columns'),
+    Input('column-selector', 'value')
+)
+def update_table(selected_columns):
+    if selected_columns is None or not selected_columns:
+        # If no columns are selected, display all columns
+        return [{"name": i, "id": i} for i in df.columns]
+    else:
+        # Display only the selected columns
+        return [{"name": i, "id": i} for i in selected_columns]
 
 
 
