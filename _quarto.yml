@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Alan J Averett"
+  title: "John C Morton"
   favicon: favicon.png
   navbar:
     background: "#FFFFFF"

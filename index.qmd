@@ -7,20 +7,16 @@ about:
     links: 
     - text: "GitHub"
       icon: github
-      href: "https://github.com/ajaverett"
+      href: "https://github.com/johncmorton"
     - text: LinkedIn
       icon: linkedin
-      href: https://www.linkedin.com/in/ajaverett/
+      href: https://www.linkedin.com/in/john-morton-06b298176/
     - text: Resume
       icon: file-text
       href: "resume.pdf"
-    - text: Instagram
-      icon: instagram
-      href: "https://www.instagram.com/rooftop_asian"
     - text: Email
       icon: envelope
-      href: mailto:ajaverett0@Gmail.com
-# https://quarto.org/docs/websites/website-listings.html
+      href: mailto:christian.morton429@Gmail.com
 listing:
   contents: posts
   sort: "date desc"
@@ -34,7 +30,7 @@ listing:
 ![](images/bg_hero.webp){style="transform: translateY(-5em); 
                                            height: 10% !important;
                                            display: none !important;"}
-![](images/portrait.webp){style="transform: translateY(-5em); 
+![](images/me.jpg){style="transform: translateY(-5em); 
                                            height: 10% !important;
                                            display: none !important;"}
 :::
@@ -54,17 +50,17 @@ listing:
             transform: translateY(-5em)">
     
     <!-- Content over the hero image -->
-    <h1 style="color: white; text-align: center;">Meet Alan!</h1>
+    <h1 style="color: white; text-align: center;">Meet John! 👉👈 </h1>
     
     <!-- Portrait Image -->
-    <img src="images/portrait.webp" alt="Portrait of Aj" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);">
+    <img src="images/me.jpg" alt="Portrait of Aj" style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px; box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);">
     
     <h2 style="color: white; text-align: center;">Data Scientist</h2>
     <p style="color: white; text-align: center; max-width: 600px;">
-      I'm a data scientist committed to driving impactful results through data, whether in the academic, political, or historical domain. I have a passion for Python, R, data visualization, and statistics/machine learning. 
+      I'm a electrical enginneerinruje 
     </p>
     
-    <a href="resume_ds.html" style="background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);">View My Resume</a>
+    <a href="resume.pdf" style="background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);">View My Resume</a>
 
     
 </div>
@@ -72,9 +68,6 @@ listing:
 ```
 :::
 
-# Some of Alan's Projects
-
-On this portfolio, I share and teach what I learn. To get started, you can check out my most popular content below. You can find me on GitHub and LinkedIn. Feel free to reach out to me via mail or follow my Instagram.
-
+# Things!
 
 <br><br>
